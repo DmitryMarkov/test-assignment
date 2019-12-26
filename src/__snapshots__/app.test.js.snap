@@ -2,34 +2,973 @@
 
 exports[`renders app properly 1`] = `
 <DocumentFragment>
+  <h2
+    class="css-wgvffo"
+    data-testid="heading-title"
+  >
+    Mallorca: 16326 Unterkünfte gefunden
+  </h2>
   <div
-    class="css-15g6okc"
+    class="css-sk40cj"
   >
     <div
-      class="css-e2vz33"
+      class="css-i65ldc"
     >
-      <img
-        class="css-9taffg"
-        src="https://img.holidu.com/images/2691944d-d1ba-4a8a-8b30-4f50d1d75156/t.jpg"
-      />
       <div
-        class="css-1f9rp2t"
+        class="css-18sbqny"
       >
-        <h3
-          class="css-1vg6f3p"
-        >
-          Title
-        </h3>
+        <img
+          class="css-9taffg"
+          src="https://img.holidu.com/images/2691944d-d1ba-4a8a-8b30-4f50d1d75156/t.jpg"
+        />
         <div
-          class="css-65w75"
+          class="css-1f9rp2t"
         >
-          test
+          <h3
+            class="css-d1eliv"
+          >
+            SA COVETA
+          </h3>
+          <div
+            class="css-65w75"
+          >
+            8 pers.
+          </div>
+          <button
+            class="css-1az93wp"
+            disabled=""
+          >
+            Click me
+          </button>
         </div>
-        <button
-          class="css-j9oqzc"
+      </div>
+    </div>
+    <div
+      class="css-i65ldc"
+    >
+      <div
+        class="css-18sbqny"
+      >
+        <img
+          class="css-9taffg"
+          src="https://img.holidu.com/images/2691944d-d1ba-4a8a-8b30-4f50d1d75156/t.jpg"
+        />
+        <div
+          class="css-1f9rp2t"
         >
-          Click me
-        </button>
+          <h3
+            class="css-d1eliv"
+          >
+            SA TANCA (MANCORINA)
+          </h3>
+          <div
+            class="css-65w75"
+          >
+            6 pers.
+          </div>
+          <button
+            class="css-1az93wp"
+            disabled=""
+          >
+            Click me
+          </button>
+        </div>
+      </div>
+    </div>
+    <div
+      class="css-i65ldc"
+    >
+      <div
+        class="css-18sbqny"
+      >
+        <img
+          class="css-9taffg"
+          src="https://img.holidu.com/images/2691944d-d1ba-4a8a-8b30-4f50d1d75156/t.jpg"
+        />
+        <div
+          class="css-1f9rp2t"
+        >
+          <h3
+            class="css-d1eliv"
+          >
+            ESPAIOSA
+          </h3>
+          <div
+            class="css-65w75"
+          >
+            7 pers.
+          </div>
+          <button
+            class="css-1az93wp"
+            disabled=""
+          >
+            Click me
+          </button>
+        </div>
+      </div>
+    </div>
+    <div
+      class="css-i65ldc"
+    >
+      <div
+        class="css-18sbqny"
+      >
+        <img
+          class="css-9taffg"
+          src="https://img.holidu.com/images/2691944d-d1ba-4a8a-8b30-4f50d1d75156/t.jpg"
+        />
+        <div
+          class="css-1f9rp2t"
+        >
+          <h3
+            class="css-d1eliv"
+          >
+            EL PUJOL
+          </h3>
+          <div
+            class="css-65w75"
+          >
+            10 pers.
+          </div>
+          <button
+            class="css-1az93wp"
+            disabled=""
+          >
+            Click me
+          </button>
+        </div>
+      </div>
+    </div>
+    <div
+      class="css-i65ldc"
+    >
+      <div
+        class="css-18sbqny"
+      >
+        <img
+          class="css-9taffg"
+          src="https://img.holidu.com/images/2691944d-d1ba-4a8a-8b30-4f50d1d75156/t.jpg"
+        />
+        <div
+          class="css-1f9rp2t"
+        >
+          <h3
+            class="css-d1eliv"
+          >
+            Ferienwohnung La Cabanya in Standnähe mit 1 Schlafzimmer, WLAN, Balkon, Terrasse und Gemeinschaftspo...
+          </h3>
+          <div
+            class="css-65w75"
+          >
+            2 pers.
+          </div>
+          <button
+            class="css-1az93wp"
+            disabled=""
+          >
+            Click me
+          </button>
+        </div>
+      </div>
+    </div>
+    <div
+      class="css-i65ldc"
+    >
+      <div
+        class="css-18sbqny"
+      >
+        <img
+          class="css-9taffg"
+          src="https://img.holidu.com/images/2691944d-d1ba-4a8a-8b30-4f50d1d75156/t.jpg"
+        />
+        <div
+          class="css-1f9rp2t"
+        >
+          <h3
+            class="css-d1eliv"
+          >
+            Ruhige Lage in Strandnähe – Casa de la playa
+          </h3>
+          <div
+            class="css-65w75"
+          >
+            6 pers.
+          </div>
+          <button
+            class="css-1az93wp"
+            disabled=""
+          >
+            Click me
+          </button>
+        </div>
+      </div>
+    </div>
+    <div
+      class="css-i65ldc"
+    >
+      <div
+        class="css-18sbqny"
+      >
+        <img
+          class="css-9taffg"
+          src="https://img.holidu.com/images/2691944d-d1ba-4a8a-8b30-4f50d1d75156/t.jpg"
+        />
+        <div
+          class="css-1f9rp2t"
+        >
+          <h3
+            class="css-d1eliv"
+          >
+            CARLES
+          </h3>
+          <div
+            class="css-65w75"
+          >
+            6 pers.
+          </div>
+          <button
+            class="css-1az93wp"
+            disabled=""
+          >
+            Click me
+          </button>
+        </div>
+      </div>
+    </div>
+    <div
+      class="css-i65ldc"
+    >
+      <div
+        class="css-18sbqny"
+      >
+        <img
+          class="css-9taffg"
+          src="https://img.holidu.com/images/2691944d-d1ba-4a8a-8b30-4f50d1d75156/t.jpg"
+        />
+        <div
+          class="css-1f9rp2t"
+        >
+          <h3
+            class="css-d1eliv"
+          >
+            Mit Panoramablick und privatem Pool - Finca S'Alqueria Vell
+          </h3>
+          <div
+            class="css-65w75"
+          >
+            6 pers.
+          </div>
+          <button
+            class="css-1az93wp"
+            disabled=""
+          >
+            Click me
+          </button>
+        </div>
+      </div>
+    </div>
+    <div
+      class="css-i65ldc"
+    >
+      <div
+        class="css-18sbqny"
+      >
+        <img
+          class="css-9taffg"
+          src="https://img.holidu.com/images/2691944d-d1ba-4a8a-8b30-4f50d1d75156/t.jpg"
+        />
+        <div
+          class="css-1f9rp2t"
+        >
+          <h3
+            class="css-d1eliv"
+          >
+            ES MIRADOR
+          </h3>
+          <div
+            class="css-65w75"
+          >
+            4 pers.
+          </div>
+          <button
+            class="css-1az93wp"
+            disabled=""
+          >
+            Click me
+          </button>
+        </div>
+      </div>
+    </div>
+    <div
+      class="css-i65ldc"
+    >
+      <div
+        class="css-18sbqny"
+      >
+        <img
+          class="css-9taffg"
+          src="https://img.holidu.com/images/2691944d-d1ba-4a8a-8b30-4f50d1d75156/t.jpg"
+        />
+        <div
+          class="css-1f9rp2t"
+        >
+          <h3
+            class="css-d1eliv"
+          >
+            BAHAMAS 1
+          </h3>
+          <div
+            class="css-65w75"
+          >
+            6 pers.
+          </div>
+          <button
+            class="css-1az93wp"
+            disabled=""
+          >
+            Click me
+          </button>
+        </div>
+      </div>
+    </div>
+    <div
+      class="css-i65ldc"
+    >
+      <div
+        class="css-18sbqny"
+      >
+        <img
+          class="css-9taffg"
+          src="https://img.holidu.com/images/2691944d-d1ba-4a8a-8b30-4f50d1d75156/t.jpg"
+        />
+        <div
+          class="css-1f9rp2t"
+        >
+          <h3
+            class="css-d1eliv"
+          >
+            CAN TIANET
+          </h3>
+          <div
+            class="css-65w75"
+          >
+            10 pers.
+          </div>
+          <button
+            class="css-1az93wp"
+            disabled=""
+          >
+            Click me
+          </button>
+        </div>
+      </div>
+    </div>
+    <div
+      class="css-i65ldc"
+    >
+      <div
+        class="css-18sbqny"
+      >
+        <img
+          class="css-9taffg"
+          src="https://img.holidu.com/images/2691944d-d1ba-4a8a-8b30-4f50d1d75156/t.jpg"
+        />
+        <div
+          class="css-1f9rp2t"
+        >
+          <h3
+            class="css-d1eliv"
+          >
+            PORTA DE LA MAR
+          </h3>
+          <div
+            class="css-65w75"
+          >
+            5 pers.
+          </div>
+          <button
+            class="css-1az93wp"
+            disabled=""
+          >
+            Click me
+          </button>
+        </div>
+      </div>
+    </div>
+    <div
+      class="css-i65ldc"
+    >
+      <div
+        class="css-18sbqny"
+      >
+        <img
+          class="css-9taffg"
+          src="https://img.holidu.com/images/2691944d-d1ba-4a8a-8b30-4f50d1d75156/t.jpg"
+        />
+        <div
+          class="css-1f9rp2t"
+        >
+          <h3
+            class="css-d1eliv"
+          >
+            BOSTON
+          </h3>
+          <div
+            class="css-65w75"
+          >
+            4 pers.
+          </div>
+          <button
+            class="css-1az93wp"
+            disabled=""
+          >
+            Click me
+          </button>
+        </div>
+      </div>
+    </div>
+    <div
+      class="css-i65ldc"
+    >
+      <div
+        class="css-18sbqny"
+      >
+        <img
+          class="css-9taffg"
+          src="https://img.holidu.com/images/2691944d-d1ba-4a8a-8b30-4f50d1d75156/t.jpg"
+        />
+        <div
+          class="css-1f9rp2t"
+        >
+          <h3
+            class="css-d1eliv"
+          >
+            ES DESAIGUA
+          </h3>
+          <div
+            class="css-65w75"
+          >
+            8 pers.
+          </div>
+          <button
+            class="css-1az93wp"
+            disabled=""
+          >
+            Click me
+          </button>
+        </div>
+      </div>
+    </div>
+    <div
+      class="css-i65ldc"
+    >
+      <div
+        class="css-18sbqny"
+      >
+        <img
+          class="css-9taffg"
+          src="https://img.holidu.com/images/2691944d-d1ba-4a8a-8b30-4f50d1d75156/t.jpg"
+        />
+        <div
+          class="css-1f9rp2t"
+        >
+          <h3
+            class="css-d1eliv"
+          >
+            ROSA DELS VENTS 2C
+          </h3>
+          <div
+            class="css-65w75"
+          >
+            4 pers.
+          </div>
+          <button
+            class="css-1az93wp"
+            disabled=""
+          >
+            Click me
+          </button>
+        </div>
+      </div>
+    </div>
+    <div
+      class="css-i65ldc"
+    >
+      <div
+        class="css-18sbqny"
+      >
+        <img
+          class="css-9taffg"
+          src="https://img.holidu.com/images/2691944d-d1ba-4a8a-8b30-4f50d1d75156/t.jpg"
+        />
+        <div
+          class="css-1f9rp2t"
+        >
+          <h3
+            class="css-d1eliv"
+          >
+            VILLA FERNANDO
+          </h3>
+          <div
+            class="css-65w75"
+          >
+            6 pers.
+          </div>
+          <button
+            class="css-1az93wp"
+            disabled=""
+          >
+            Click me
+          </button>
+        </div>
+      </div>
+    </div>
+    <div
+      class="css-i65ldc"
+    >
+      <div
+        class="css-18sbqny"
+      >
+        <img
+          class="css-9taffg"
+          src="https://img.holidu.com/images/2691944d-d1ba-4a8a-8b30-4f50d1d75156/t.jpg"
+        />
+        <div
+          class="css-1f9rp2t"
+        >
+          <h3
+            class="css-d1eliv"
+          >
+            TAMARELL
+          </h3>
+          <div
+            class="css-65w75"
+          >
+            8 pers.
+          </div>
+          <button
+            class="css-1az93wp"
+            disabled=""
+          >
+            Click me
+          </button>
+        </div>
+      </div>
+    </div>
+    <div
+      class="css-i65ldc"
+    >
+      <div
+        class="css-18sbqny"
+      >
+        <img
+          class="css-9taffg"
+          src="https://img.holidu.com/images/2691944d-d1ba-4a8a-8b30-4f50d1d75156/t.jpg"
+        />
+        <div
+          class="css-1f9rp2t"
+        >
+          <h3
+            class="css-d1eliv"
+          >
+            SES PASADORES
+          </h3>
+          <div
+            class="css-65w75"
+          >
+            6 pers.
+          </div>
+          <button
+            class="css-1az93wp"
+            disabled=""
+          >
+            Click me
+          </button>
+        </div>
+      </div>
+    </div>
+    <div
+      class="css-i65ldc"
+    >
+      <div
+        class="css-18sbqny"
+      >
+        <img
+          class="css-9taffg"
+          src="https://img.holidu.com/images/2691944d-d1ba-4a8a-8b30-4f50d1d75156/t.jpg"
+        />
+        <div
+          class="css-1f9rp2t"
+        >
+          <h3
+            class="css-d1eliv"
+          >
+            LOS GERANIOS
+          </h3>
+          <div
+            class="css-65w75"
+          >
+            9 pers.
+          </div>
+          <button
+            class="css-1az93wp"
+            disabled=""
+          >
+            Click me
+          </button>
+        </div>
+      </div>
+    </div>
+    <div
+      class="css-i65ldc"
+    >
+      <div
+        class="css-18sbqny"
+      >
+        <img
+          class="css-9taffg"
+          src="https://img.holidu.com/images/2691944d-d1ba-4a8a-8b30-4f50d1d75156/t.jpg"
+        />
+        <div
+          class="css-1f9rp2t"
+        >
+          <h3
+            class="css-d1eliv"
+          >
+            Modernes Ferienhaus mit Garten, Terrasse, Balkon, Meerblick und WLAN; Garage vorhanden, Haustiere er...
+          </h3>
+          <div
+            class="css-65w75"
+          >
+            8 pers.
+          </div>
+          <button
+            class="css-1az93wp"
+            disabled=""
+          >
+            Click me
+          </button>
+        </div>
+      </div>
+    </div>
+    <div
+      class="css-i65ldc"
+    >
+      <div
+        class="css-18sbqny"
+      >
+        <img
+          class="css-9taffg"
+          src="https://img.holidu.com/images/2691944d-d1ba-4a8a-8b30-4f50d1d75156/t.jpg"
+        />
+        <div
+          class="css-1f9rp2t"
+        >
+          <h3
+            class="css-d1eliv"
+          >
+            PASCUCAN
+          </h3>
+          <div
+            class="css-65w75"
+          >
+            8 pers.
+          </div>
+          <button
+            class="css-1az93wp"
+            disabled=""
+          >
+            Click me
+          </button>
+        </div>
+      </div>
+    </div>
+    <div
+      class="css-i65ldc"
+    >
+      <div
+        class="css-18sbqny"
+      >
+        <img
+          class="css-9taffg"
+          src="https://img.holidu.com/images/2691944d-d1ba-4a8a-8b30-4f50d1d75156/t.jpg"
+        />
+        <div
+          class="css-1f9rp2t"
+        >
+          <h3
+            class="css-d1eliv"
+          >
+            Apartment 60m²
+          </h3>
+          <div
+            class="css-65w75"
+          >
+            4 pers.
+          </div>
+          <button
+            class="css-1az93wp"
+            disabled=""
+          >
+            Click me
+          </button>
+        </div>
+      </div>
+    </div>
+    <div
+      class="css-i65ldc"
+    >
+      <div
+        class="css-18sbqny"
+      >
+        <img
+          class="css-9taffg"
+          src="https://img.holidu.com/images/2691944d-d1ba-4a8a-8b30-4f50d1d75156/t.jpg"
+        />
+        <div
+          class="css-1f9rp2t"
+        >
+          <h3
+            class="css-d1eliv"
+          >
+            Finca 220m²
+          </h3>
+          <div
+            class="css-65w75"
+          >
+            9 pers.
+          </div>
+          <button
+            class="css-1az93wp"
+            disabled=""
+          >
+            Click me
+          </button>
+        </div>
+      </div>
+    </div>
+    <div
+      class="css-i65ldc"
+    >
+      <div
+        class="css-18sbqny"
+      >
+        <img
+          class="css-9taffg"
+          src="https://img.holidu.com/images/2691944d-d1ba-4a8a-8b30-4f50d1d75156/t.jpg"
+        />
+        <div
+          class="css-1f9rp2t"
+        >
+          <h3
+            class="css-d1eliv"
+          >
+            Wunderschönes Ferienwohnung in unmittelbarer Nähe zum Strand mit Balkon, Terrasse, WLAN und Klimaanl...
+          </h3>
+          <div
+            class="css-65w75"
+          >
+            6 pers.
+          </div>
+          <button
+            class="css-1az93wp"
+            disabled=""
+          >
+            Click me
+          </button>
+        </div>
+      </div>
+    </div>
+    <div
+      class="css-i65ldc"
+    >
+      <div
+        class="css-18sbqny"
+      >
+        <img
+          class="css-9taffg"
+          src="https://img.holidu.com/images/2691944d-d1ba-4a8a-8b30-4f50d1d75156/t.jpg"
+        />
+        <div
+          class="css-1f9rp2t"
+        >
+          <h3
+            class="css-d1eliv"
+          >
+            BARCELO-DANUS
+          </h3>
+          <div
+            class="css-65w75"
+          >
+            4 pers.
+          </div>
+          <button
+            class="css-1az93wp"
+            disabled=""
+          >
+            Click me
+          </button>
+        </div>
+      </div>
+    </div>
+    <div
+      class="css-i65ldc"
+    >
+      <div
+        class="css-18sbqny"
+      >
+        <img
+          class="css-9taffg"
+          src="https://img.holidu.com/images/2691944d-d1ba-4a8a-8b30-4f50d1d75156/t.jpg"
+        />
+        <div
+          class="css-1f9rp2t"
+        >
+          <h3
+            class="css-d1eliv"
+          >
+            In den Bergen mit Meerblick - Casa Can Sans
+          </h3>
+          <div
+            class="css-65w75"
+          >
+            6 pers.
+          </div>
+          <button
+            class="css-1az93wp"
+            disabled=""
+          >
+            Click me
+          </button>
+        </div>
+      </div>
+    </div>
+    <div
+      class="css-i65ldc"
+    >
+      <div
+        class="css-18sbqny"
+      >
+        <img
+          class="css-9taffg"
+          src="https://img.holidu.com/images/2691944d-d1ba-4a8a-8b30-4f50d1d75156/t.jpg"
+        />
+        <div
+          class="css-1f9rp2t"
+        >
+          <h3
+            class="css-d1eliv"
+          >
+            Mit Pool und Bergblick - Finca Ca Na Pepa
+          </h3>
+          <div
+            class="css-65w75"
+          >
+            8 pers.
+          </div>
+          <button
+            class="css-1az93wp"
+            disabled=""
+          >
+            Click me
+          </button>
+        </div>
+      </div>
+    </div>
+    <div
+      class="css-i65ldc"
+    >
+      <div
+        class="css-18sbqny"
+      >
+        <img
+          class="css-9taffg"
+          src="https://img.holidu.com/images/2691944d-d1ba-4a8a-8b30-4f50d1d75156/t.jpg"
+        />
+        <div
+          class="css-1f9rp2t"
+        >
+          <h3
+            class="css-d1eliv"
+          >
+            SON DEL RIO VELL
+          </h3>
+          <div
+            class="css-65w75"
+          >
+            6 pers.
+          </div>
+          <button
+            class="css-1az93wp"
+            disabled=""
+          >
+            Click me
+          </button>
+        </div>
+      </div>
+    </div>
+    <div
+      class="css-i65ldc"
+    >
+      <div
+        class="css-18sbqny"
+      >
+        <img
+          class="css-9taffg"
+          src="https://img.holidu.com/images/2691944d-d1ba-4a8a-8b30-4f50d1d75156/t.jpg"
+        />
+        <div
+          class="css-1f9rp2t"
+        >
+          <h3
+            class="css-d1eliv"
+          >
+            ONDATEGUI 47
+          </h3>
+          <div
+            class="css-65w75"
+          >
+            9 pers.
+          </div>
+          <button
+            class="css-1az93wp"
+            disabled=""
+          >
+            Click me
+          </button>
+        </div>
+      </div>
+    </div>
+    <div
+      class="css-i65ldc"
+    >
+      <div
+        class="css-18sbqny"
+      >
+        <img
+          class="css-9taffg"
+          src="https://img.holidu.com/images/2691944d-d1ba-4a8a-8b30-4f50d1d75156/t.jpg"
+        />
+        <div
+          class="css-1f9rp2t"
+        >
+          <h3
+            class="css-d1eliv"
+          >
+            Haus am Meer mit Pool – Casa Juana Maria
+          </h3>
+          <div
+            class="css-65w75"
+          >
+            8 pers.
+          </div>
+          <button
+            class="css-1az93wp"
+            disabled=""
+          >
+            Click me
+          </button>
+        </div>
       </div>
     </div>
   </div>

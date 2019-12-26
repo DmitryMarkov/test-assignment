@@ -3,13 +3,15 @@ import { ThemeProvider } from 'emotion-theming'
 import theme from '@rebass/preset'
 import { Provider } from 'react-redux'
 import { store } from './store'
-import Test from './components/test'
+import Header from './components/header'
+import Offers from './components/offers'
 
 const App = () => {
   return (
     <Provider store={store}>
       <ThemeProvider theme={theme}>
-        <Test />
+        <Header />
+        <Offers />
       </ThemeProvider>
     </Provider>
   )

@@ -1,12 +1,10 @@
-/* global window */
-import { applyMiddleware, compose, createStore } from 'redux'
-import thunk from 'redux-thunk'
-import { rootReducer } from './reducers'
-import epics from './epics'
+import { configureStore, getDefaultMiddleware } from '@reduxjs/toolkit'
+import { rootReducer } from './root-reducer'
+import { offersEpics } from './offers/offers.epics'
 
 const __DEV__ = process.env.NODE_ENV === 'development'
 
-let reduxMiddleware = [thunk, ...epics]
+let reduxMiddleware = [...getDefaultMiddleware(), offersEpics]
 
 if (__DEV__) {
   const { createLogger } = require('redux-logger')
@@ -18,15 +16,10 @@ if (__DEV__) {
   reduxMiddleware.push(freeze)
 }
 
-const combineEnhancer =
-  typeof window === 'object' && window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__
-    ? window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__({
-        name: 'Bookmarks',
-      })
-    : compose
-
-const enhancer = combineEnhancer(applyMiddleware(...reduxMiddleware))
-
-const store = createStore(rootReducer, enhancer)
+const store = configureStore({
+  reducer: rootReducer,
+  middleware: reduxMiddleware,
+  devTools: __DEV__,
+})
 
 export { store }

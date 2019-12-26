@@ -14,6 +14,7 @@
   },
   "dependencies": {
     "@rebass/preset": "4.0.5",
+    "@reduxjs/toolkit": "1.1.0",
     "emotion-theming": "10.0.27",
     "immer": "5.1.0",
     "prop-types": "15.7.2",
