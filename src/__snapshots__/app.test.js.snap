@@ -2,12 +2,12 @@
 
 exports[`renders app properly 1`] = `
 <DocumentFragment>
-  <h2
-    class="css-wgvffo"
+  <h1
+    class="css-6qc1t1"
     data-testid="heading-title"
   >
     Mallorca: 16326 Unterkünfte gefunden
-  </h2>
+  </h1>
   <div
     class="css-sk40cj"
   >

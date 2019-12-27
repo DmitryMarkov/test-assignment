@@ -1,12 +1,27 @@
-import React, { useEffect } from 'react'
-import { connect } from 'react-redux'
+import React, { useCallback, useEffect } from 'react'
+import { createSelector } from '@reduxjs/toolkit'
+import { useDispatch, useSelector } from 'react-redux'
 import { Box, Button, Card, Flex, Image, Heading, Text } from 'rebass'
-import { fetchOffers } from '../../store/offers/offers.actions'
+import { fetchOffersAction } from '../../store/offers/offers.actions'
 
-const Offers = ({ fetchOffers, offers }) => {
+const offersSelector = createSelector(
+  ({ offers }) => offers.offers,
+  offers => offers
+)
+
+const Offers = () => {
+  const dispatch = useDispatch()
+
+  const fetchOffers = useCallback(() => dispatch(fetchOffersAction()), [
+    dispatch,
+  ])
+
   useEffect(() => {
     fetchOffers()
   }, [fetchOffers])
+
+  const offers = useSelector(offersSelector)
+
   const renderOffers = () =>
     offers.map(offer => (
       <Box px={0} py={0} width={366} key={offer.id}>
@@ -40,6 +55,7 @@ const Offers = ({ fetchOffers, offers }) => {
         </Card>
       </Box>
     ))
+
   return (
     offers.length > 0 && (
       <Flex flexWrap="wrap" mx={1}>
@@ -49,12 +65,4 @@ const Offers = ({ fetchOffers, offers }) => {
   )
 }
 
-const mapStateToProps = ({ offers }) => ({
-  offers: offers.offers,
-})
-
-const mapDispatchToProps = {
-  fetchOffers,
-}
-
-export default connect(mapStateToProps, mapDispatchToProps)(Offers)
+export default Offers

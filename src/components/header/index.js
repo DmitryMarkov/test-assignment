@@ -1,20 +1,27 @@
 import React from 'react'
-import { connect } from 'react-redux'
+import { createSelector } from '@reduxjs/toolkit'
+import { useSelector } from 'react-redux'
 import { Heading } from 'rebass'
 
-const Header = ({ metaData }) => {
+const headerSelector = createSelector(
+  ({ offers }) => offers.metaData,
+  metaData => ({
+    listTitle: metaData?.listTitle,
+    name: metaData?.searchRegion?.name,
+    totalCount: metaData?.cursor?.totalCount,
+  })
+)
+
+const Header = React.memo(() => {
+  const { listTitle, name, totalCount } = useSelector(headerSelector)
+
   return (
-    !!metaData?.listTitle && (
-      <Heading fontSize={5} m={2} data-testid="heading-title">
-        {metaData?.searchRegion?.name}: {metaData?.cursor?.totalCount}{' '}
-        {metaData?.listTitle}
+    name && (
+      <Heading as="h1" fontSize={4} m={3} data-testid="heading-title">
+        {name}: {totalCount} {listTitle}
       </Heading>
     )
   )
-}
-
-const mapStateToProps = ({ offers }) => ({
-  metaData: offers.metaData,
 })
 
-export default connect(mapStateToProps)(Header)
+export default Header
