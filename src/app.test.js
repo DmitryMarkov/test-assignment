@@ -16,7 +16,7 @@ global.fetch = jest.fn().mockImplementation(
     })
 )
 
-test.skip('renders app properly', async () => {
+test('renders app properly', async () => {
   const { asFragment, getByTestId } = render(<App />)
   const headingTitle = await waitForElement(() => getByTestId('heading-title'))
 
