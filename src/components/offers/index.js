@@ -35,7 +35,7 @@ const Offers = () => {
           }}
         >
           <Flex flexDirection="column" height="100%">
-            <Image src="https://img.holidu.com/images/2691944d-d1ba-4a8a-8b30-4f50d1d75156/t.jpg" />
+            <Image src={offer?.photos?.[0]?.t} />
             <Flex
               alignItems="stretch"
               alignContent="stretch"

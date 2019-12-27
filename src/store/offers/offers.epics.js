@@ -1,24 +1,25 @@
 import { fetchOffersAction, loadOffersAction } from './offers.actions'
-import mocks from '../../mocks/offers'
 
-async function stall(stallTime = 1000) {
-  await new Promise(resolve => setTimeout(resolve, stallTime))
+const BASE_URL = 'https://api.holidu.com/rest/v6'
+
+const getData = async () => {
+  try {
+    const res = await fetch(
+      `${BASE_URL}/search/offers?searchTerm=Mallorca,%20Spanien`
+    )
+    return await res.json()
+  } catch (error) {
+    return error
+  }
 }
 
-const getFolders = async () => {
-  await stall()
-  return new Promise(resolve => {
-    resolve(mocks)
-  })
+const offersService = {
+  getData,
 }
 
-const folderService = {
-  getFolders,
-}
-
-const fetchFolders = dispatch => {
-  folderService
-    .getFolders()
+const fetchOffers = dispatch => {
+  offersService
+    .getData()
     .then(payload => dispatch(loadOffersAction(payload)))
     .catch(error => dispatch(loadOffersAction(error)))
 }
@@ -26,7 +27,7 @@ const fetchFolders = dispatch => {
 const offersEpics = ({ dispatch }) => next => action => {
   switch (action.type) {
     case fetchOffersAction.type: {
-      fetchFolders(dispatch)
+      fetchOffers(dispatch)
       break
     }
     default:
