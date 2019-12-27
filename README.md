@@ -1,3 +1,3 @@
 # Test assignment
 
-(WIP)
+Project with redux boilerplate, data fetching and list rendering
