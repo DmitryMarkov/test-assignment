@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`OfferCardPrice should render properly 1`] = `
+<DocumentFragment>
+  <div
+    class="css-tsqj0x"
+  >
+    <div
+      class="css-bbnvqk"
+    >
+      7 nights
+    </div>
+    <div
+      class="css-fm3b53"
+    >
+      € 4,200
+    </div>
+  </div>
+</DocumentFragment>
+`;

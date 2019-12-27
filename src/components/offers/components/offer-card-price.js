@@ -3,9 +3,9 @@ import PropTypes from 'prop-types'
 import { Box, Text } from 'rebass'
 import pluralize from 'pluralize'
 
-const OfferCardPrice = ({ nights, price }) => (
+const OfferCardPrice = ({ nights, price, width }) => (
   <Box
-    width="20%"
+    width={width}
     sx={{
       textAlign: 'right',
     }}
@@ -19,9 +19,14 @@ const OfferCardPrice = ({ nights, price }) => (
   </Box>
 )
 
+OfferCardPrice.defaultProps = {
+  width: '20%',
+}
+
 OfferCardPrice.propTypes = {
   nights: PropTypes.number.isRequired,
   price: PropTypes.number.isRequired,
+  width: PropTypes.oneOfType([PropTypes.number, PropTypes.string]),
 }
 
 export default OfferCardPrice

@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`OfferCardTitle should render properly 1`] = `
+<DocumentFragment>
+  <h3
+    class="css-50tfpm"
+  >
+    Grand Royal
+  </h3>
+</DocumentFragment>
+`;
