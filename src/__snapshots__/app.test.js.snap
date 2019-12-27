@@ -15,31 +15,66 @@ exports[`renders app properly 1`] = `
       class="css-i65ldc"
     >
       <div
-        class="css-18sbqny"
+        class="css-fsfgwe"
       >
-        <img
-          class="css-9taffg"
-          src="https://img.holidu.com/images/2691944d-d1ba-4a8a-8b30-4f50d1d75156/t.jpg"
-        />
         <div
-          class="css-1f9rp2t"
+          class="css-13pqr4x"
         >
-          <h3
-            class="css-d1eliv"
-          >
-            SA COVETA
-          </h3>
+          <img
+            class="css-9taffg"
+            src="https://img.holidu.com/images/2691944d-d1ba-4a8a-8b30-4f50d1d75156/t.jpg"
+          />
           <div
-            class="css-65w75"
+            class="css-yvgka3"
           >
-            8 pers.
+            <div
+              class="css-4wfasp"
+            >
+              <h3
+                class="css-kzlxxl"
+              >
+                SA COVETA
+              </h3>
+              <div
+                class="css-tsqj0x"
+              >
+                <div
+                  class="css-65w75"
+                >
+                  7 nights
+                </div>
+                <div
+                  class="css-1lfgwp7"
+                >
+                  € 728
+                </div>
+              </div>
+            </div>
+            <div
+              class="css-b8jp8o"
+            >
+              <div
+                class="css-5h0skw"
+              >
+                8 pers., 4 bedroom(s), 256 m
+                <sup>
+                  2
+                </sup>
+              </div>
+              <div
+                class="css-dmeso1"
+              >
+                Rating: 4.5 (6)
+              </div>
+            </div>
+            <button
+              class="css-4akejv"
+              disabled=""
+              title="not implemented"
+            >
+              To offer
+            </button>
           </div>
-          <button
-            class="css-1az93wp"
-            disabled=""
-          >
-            Click me
-          </button>
         </div>
       </div>
     </div>
@@ -47,31 +82,66 @@ exports[`renders app properly 1`] = `
       class="css-i65ldc"
     >
       <div
-        class="css-18sbqny"
+        class="css-fsfgwe"
       >
-        <img
-          class="css-9taffg"
-          src="https://img.holidu.com/images/2691944d-d1ba-4a8a-8b30-4f50d1d75156/t.jpg"
-        />
         <div
-          class="css-1f9rp2t"
+          class="css-13pqr4x"
         >
-          <h3
-            class="css-d1eliv"
-          >
-            SA TANCA (MANCORINA)
-          </h3>
+          <img
+            class="css-9taffg"
+            src="https://img.holidu.com/images/2691944d-d1ba-4a8a-8b30-4f50d1d75156/t.jpg"
+          />
           <div
-            class="css-65w75"
+            class="css-yvgka3"
           >
-            6 pers.
+            <div
+              class="css-4wfasp"
+            >
+              <h3
+                class="css-kzlxxl"
+              >
+                SA TANCA (MANCORINA)
+              </h3>
+              <div
+                class="css-tsqj0x"
+              >
+                <div
+                  class="css-65w75"
+                >
+                  7 nights
+                </div>
+                <div
+                  class="css-1lfgwp7"
+                >
+                  € 1001
+                </div>
+              </div>
+            </div>
+            <div
+              class="css-b8jp8o"
+            >
+              <div
+                class="css-5h0skw"
+              >
+                6 pers., 4 bedroom(s), 253 m
+                <sup>
+                  2
+                </sup>
+              </div>
+              <div
+                class="css-dmeso1"
+              >
+                Rating: 5.0 (12)
+              </div>
+            </div>
+            <button
+              class="css-4akejv"
+              disabled=""
+              title="not implemented"
+            >
+              To offer
+            </button>
           </div>
-          <button
-            class="css-1az93wp"
-            disabled=""
-          >
-            Click me
-          </button>
         </div>
       </div>
     </div>
@@ -79,31 +149,66 @@ exports[`renders app properly 1`] = `
       class="css-i65ldc"
     >
       <div
-        class="css-18sbqny"
+        class="css-fsfgwe"
       >
-        <img
-          class="css-9taffg"
-          src="https://img.holidu.com/images/2691944d-d1ba-4a8a-8b30-4f50d1d75156/t.jpg"
-        />
         <div
-          class="css-1f9rp2t"
+          class="css-13pqr4x"
         >
-          <h3
-            class="css-d1eliv"
-          >
-            ESPAIOSA
-          </h3>
+          <img
+            class="css-9taffg"
+            src="https://img.holidu.com/images/2691944d-d1ba-4a8a-8b30-4f50d1d75156/t.jpg"
+          />
           <div
-            class="css-65w75"
+            class="css-yvgka3"
           >
-            7 pers.
+            <div
+              class="css-4wfasp"
+            >
+              <h3
+                class="css-kzlxxl"
+              >
+                ESPAIOSA
+              </h3>
+              <div
+                class="css-tsqj0x"
+              >
+                <div
+                  class="css-65w75"
+                >
+                  7 nights
+                </div>
+                <div
+                  class="css-1lfgwp7"
+                >
+                  € 630
+                </div>
+              </div>
+            </div>
+            <div
+              class="css-b8jp8o"
+            >
+              <div
+                class="css-5h0skw"
+              >
+                7 pers., 4 bedroom(s), 244 m
+                <sup>
+                  2
+                </sup>
+              </div>
+              <div
+                class="css-dmeso1"
+              >
+                Rating: 4.5 (12)
+              </div>
+            </div>
+            <button
+              class="css-4akejv"
+              disabled=""
+              title="not implemented"
+            >
+              To offer
+            </button>
           </div>
-          <button
-            class="css-1az93wp"
-            disabled=""
-          >
-            Click me
-          </button>
         </div>
       </div>
     </div>
@@ -111,31 +216,66 @@ exports[`renders app properly 1`] = `
       class="css-i65ldc"
     >
       <div
-        class="css-18sbqny"
+        class="css-fsfgwe"
       >
-        <img
-          class="css-9taffg"
-          src="https://img.holidu.com/images/2691944d-d1ba-4a8a-8b30-4f50d1d75156/t.jpg"
-        />
         <div
-          class="css-1f9rp2t"
+          class="css-13pqr4x"
         >
-          <h3
-            class="css-d1eliv"
-          >
-            EL PUJOL
-          </h3>
+          <img
+            class="css-9taffg"
+            src="https://img.holidu.com/images/2691944d-d1ba-4a8a-8b30-4f50d1d75156/t.jpg"
+          />
           <div
-            class="css-65w75"
+            class="css-yvgka3"
           >
-            10 pers.
+            <div
+              class="css-4wfasp"
+            >
+              <h3
+                class="css-kzlxxl"
+              >
+                EL PUJOL
+              </h3>
+              <div
+                class="css-tsqj0x"
+              >
+                <div
+                  class="css-65w75"
+                >
+                  7 nights
+                </div>
+                <div
+                  class="css-1lfgwp7"
+                >
+                  € 1617
+                </div>
+              </div>
+            </div>
+            <div
+              class="css-b8jp8o"
+            >
+              <div
+                class="css-5h0skw"
+              >
+                10 pers., 5 bedroom(s), 350 m
+                <sup>
+                  2
+                </sup>
+              </div>
+              <div
+                class="css-dmeso1"
+              >
+                Rating: 4.5 (4)
+              </div>
+            </div>
+            <button
+              class="css-4akejv"
+              disabled=""
+              title="not implemented"
+            >
+              To offer
+            </button>
           </div>
-          <button
-            class="css-1az93wp"
-            disabled=""
-          >
-            Click me
-          </button>
         </div>
       </div>
     </div>
@@ -143,31 +283,66 @@ exports[`renders app properly 1`] = `
       class="css-i65ldc"
     >
       <div
-        class="css-18sbqny"
+        class="css-fsfgwe"
       >
-        <img
-          class="css-9taffg"
-          src="https://img.holidu.com/images/2691944d-d1ba-4a8a-8b30-4f50d1d75156/t.jpg"
-        />
         <div
-          class="css-1f9rp2t"
+          class="css-13pqr4x"
         >
-          <h3
-            class="css-d1eliv"
-          >
-            Ferienwohnung La Cabanya in Standnähe mit 1 Schlafzimmer, WLAN, Balkon, Terrasse und Gemeinschaftspo...
-          </h3>
+          <img
+            class="css-9taffg"
+            src="https://img.holidu.com/images/2691944d-d1ba-4a8a-8b30-4f50d1d75156/t.jpg"
+          />
           <div
-            class="css-65w75"
+            class="css-yvgka3"
           >
-            2 pers.
+            <div
+              class="css-4wfasp"
+            >
+              <h3
+                class="css-kzlxxl"
+              >
+                Ferienwohnung La Cabanya in Standnähe mit 1 Schlafzimmer, WLAN, Balkon, Terrasse und Gemeinschaftspo...
+              </h3>
+              <div
+                class="css-tsqj0x"
+              >
+                <div
+                  class="css-65w75"
+                >
+                  7 nights
+                </div>
+                <div
+                  class="css-1lfgwp7"
+                >
+                  € 266
+                </div>
+              </div>
+            </div>
+            <div
+              class="css-b8jp8o"
+            >
+              <div
+                class="css-5h0skw"
+              >
+                2 pers., 1 bedroom(s), 70 m
+                <sup>
+                  2
+                </sup>
+              </div>
+              <div
+                class="css-dmeso1"
+              >
+                Rating: 4.5 (21)
+              </div>
+            </div>
+            <button
+              class="css-4akejv"
+              disabled=""
+              title="not implemented"
+            >
+              To offer
+            </button>
           </div>
-          <button
-            class="css-1az93wp"
-            disabled=""
-          >
-            Click me
-          </button>
         </div>
       </div>
     </div>
@@ -175,31 +350,66 @@ exports[`renders app properly 1`] = `
       class="css-i65ldc"
     >
       <div
-        class="css-18sbqny"
+        class="css-fsfgwe"
       >
-        <img
-          class="css-9taffg"
-          src="https://img.holidu.com/images/2691944d-d1ba-4a8a-8b30-4f50d1d75156/t.jpg"
-        />
         <div
-          class="css-1f9rp2t"
+          class="css-13pqr4x"
         >
-          <h3
-            class="css-d1eliv"
-          >
-            Ruhige Lage in Strandnähe – Casa de la playa
-          </h3>
+          <img
+            class="css-9taffg"
+            src="https://img.holidu.com/images/2691944d-d1ba-4a8a-8b30-4f50d1d75156/t.jpg"
+          />
           <div
-            class="css-65w75"
+            class="css-yvgka3"
           >
-            6 pers.
+            <div
+              class="css-4wfasp"
+            >
+              <h3
+                class="css-kzlxxl"
+              >
+                Ruhige Lage in Strandnähe – Casa de la playa
+              </h3>
+              <div
+                class="css-tsqj0x"
+              >
+                <div
+                  class="css-65w75"
+                >
+                  7 nights
+                </div>
+                <div
+                  class="css-1lfgwp7"
+                >
+                  € 469
+                </div>
+              </div>
+            </div>
+            <div
+              class="css-b8jp8o"
+            >
+              <div
+                class="css-5h0skw"
+              >
+                6 pers., 3 bedroom(s), 85 m
+                <sup>
+                  2
+                </sup>
+              </div>
+              <div
+                class="css-dmeso1"
+              >
+                Rating: 4.2 (13)
+              </div>
+            </div>
+            <button
+              class="css-4akejv"
+              disabled=""
+              title="not implemented"
+            >
+              To offer
+            </button>
           </div>
-          <button
-            class="css-1az93wp"
-            disabled=""
-          >
-            Click me
-          </button>
         </div>
       </div>
     </div>
@@ -207,31 +417,66 @@ exports[`renders app properly 1`] = `
       class="css-i65ldc"
     >
       <div
-        class="css-18sbqny"
+        class="css-fsfgwe"
       >
-        <img
-          class="css-9taffg"
-          src="https://img.holidu.com/images/2691944d-d1ba-4a8a-8b30-4f50d1d75156/t.jpg"
-        />
         <div
-          class="css-1f9rp2t"
+          class="css-13pqr4x"
         >
-          <h3
-            class="css-d1eliv"
-          >
-            CARLES
-          </h3>
+          <img
+            class="css-9taffg"
+            src="https://img.holidu.com/images/2691944d-d1ba-4a8a-8b30-4f50d1d75156/t.jpg"
+          />
           <div
-            class="css-65w75"
+            class="css-yvgka3"
           >
-            6 pers.
+            <div
+              class="css-4wfasp"
+            >
+              <h3
+                class="css-kzlxxl"
+              >
+                CARLES
+              </h3>
+              <div
+                class="css-tsqj0x"
+              >
+                <div
+                  class="css-65w75"
+                >
+                  7 nights
+                </div>
+                <div
+                  class="css-1lfgwp7"
+                >
+                  € 791
+                </div>
+              </div>
+            </div>
+            <div
+              class="css-b8jp8o"
+            >
+              <div
+                class="css-5h0skw"
+              >
+                6 pers., 3 bedroom(s), 200 m
+                <sup>
+                  2
+                </sup>
+              </div>
+              <div
+                class="css-dmeso1"
+              >
+                Rating: 4.4 (13)
+              </div>
+            </div>
+            <button
+              class="css-4akejv"
+              disabled=""
+              title="not implemented"
+            >
+              To offer
+            </button>
           </div>
-          <button
-            class="css-1az93wp"
-            disabled=""
-          >
-            Click me
-          </button>
         </div>
       </div>
     </div>
@@ -239,31 +484,66 @@ exports[`renders app properly 1`] = `
       class="css-i65ldc"
     >
       <div
-        class="css-18sbqny"
+        class="css-fsfgwe"
       >
-        <img
-          class="css-9taffg"
-          src="https://img.holidu.com/images/2691944d-d1ba-4a8a-8b30-4f50d1d75156/t.jpg"
-        />
         <div
-          class="css-1f9rp2t"
+          class="css-13pqr4x"
         >
-          <h3
-            class="css-d1eliv"
-          >
-            Mit Panoramablick und privatem Pool - Finca S'Alqueria Vell
-          </h3>
+          <img
+            class="css-9taffg"
+            src="https://img.holidu.com/images/2691944d-d1ba-4a8a-8b30-4f50d1d75156/t.jpg"
+          />
           <div
-            class="css-65w75"
+            class="css-yvgka3"
           >
-            6 pers.
+            <div
+              class="css-4wfasp"
+            >
+              <h3
+                class="css-kzlxxl"
+              >
+                Mit Panoramablick und privatem Pool - Finca S'Alqueria Vell
+              </h3>
+              <div
+                class="css-tsqj0x"
+              >
+                <div
+                  class="css-65w75"
+                >
+                  7 nights
+                </div>
+                <div
+                  class="css-1lfgwp7"
+                >
+                  € 665
+                </div>
+              </div>
+            </div>
+            <div
+              class="css-b8jp8o"
+            >
+              <div
+                class="css-5h0skw"
+              >
+                6 pers., 3 bedroom(s), 200 m
+                <sup>
+                  2
+                </sup>
+              </div>
+              <div
+                class="css-dmeso1"
+              >
+                Rating: 4.8 (1)
+              </div>
+            </div>
+            <button
+              class="css-4akejv"
+              disabled=""
+              title="not implemented"
+            >
+              To offer
+            </button>
           </div>
-          <button
-            class="css-1az93wp"
-            disabled=""
-          >
-            Click me
-          </button>
         </div>
       </div>
     </div>
@@ -271,31 +551,66 @@ exports[`renders app properly 1`] = `
       class="css-i65ldc"
     >
       <div
-        class="css-18sbqny"
+        class="css-fsfgwe"
       >
-        <img
-          class="css-9taffg"
-          src="https://img.holidu.com/images/2691944d-d1ba-4a8a-8b30-4f50d1d75156/t.jpg"
-        />
         <div
-          class="css-1f9rp2t"
+          class="css-13pqr4x"
         >
-          <h3
-            class="css-d1eliv"
-          >
-            ES MIRADOR
-          </h3>
+          <img
+            class="css-9taffg"
+            src="https://img.holidu.com/images/2691944d-d1ba-4a8a-8b30-4f50d1d75156/t.jpg"
+          />
           <div
-            class="css-65w75"
+            class="css-yvgka3"
           >
-            4 pers.
+            <div
+              class="css-4wfasp"
+            >
+              <h3
+                class="css-kzlxxl"
+              >
+                ES MIRADOR
+              </h3>
+              <div
+                class="css-tsqj0x"
+              >
+                <div
+                  class="css-65w75"
+                >
+                  7 nights
+                </div>
+                <div
+                  class="css-1lfgwp7"
+                >
+                  € 1106
+                </div>
+              </div>
+            </div>
+            <div
+              class="css-b8jp8o"
+            >
+              <div
+                class="css-5h0skw"
+              >
+                4 pers., 2 bedroom(s), 220 m
+                <sup>
+                  2
+                </sup>
+              </div>
+              <div
+                class="css-dmeso1"
+              >
+                Rating: 5.0 (4)
+              </div>
+            </div>
+            <button
+              class="css-4akejv"
+              disabled=""
+              title="not implemented"
+            >
+              To offer
+            </button>
           </div>
-          <button
-            class="css-1az93wp"
-            disabled=""
-          >
-            Click me
-          </button>
         </div>
       </div>
     </div>
@@ -303,31 +618,66 @@ exports[`renders app properly 1`] = `
       class="css-i65ldc"
     >
       <div
-        class="css-18sbqny"
+        class="css-fsfgwe"
       >
-        <img
-          class="css-9taffg"
-          src="https://img.holidu.com/images/2691944d-d1ba-4a8a-8b30-4f50d1d75156/t.jpg"
-        />
         <div
-          class="css-1f9rp2t"
+          class="css-13pqr4x"
         >
-          <h3
-            class="css-d1eliv"
-          >
-            BAHAMAS 1
-          </h3>
+          <img
+            class="css-9taffg"
+            src="https://img.holidu.com/images/2691944d-d1ba-4a8a-8b30-4f50d1d75156/t.jpg"
+          />
           <div
-            class="css-65w75"
+            class="css-yvgka3"
           >
-            6 pers.
+            <div
+              class="css-4wfasp"
+            >
+              <h3
+                class="css-kzlxxl"
+              >
+                BAHAMAS 1
+              </h3>
+              <div
+                class="css-tsqj0x"
+              >
+                <div
+                  class="css-65w75"
+                >
+                  7 nights
+                </div>
+                <div
+                  class="css-1lfgwp7"
+                >
+                  € 553
+                </div>
+              </div>
+            </div>
+            <div
+              class="css-b8jp8o"
+            >
+              <div
+                class="css-5h0skw"
+              >
+                6 pers., 4 bedroom(s), 105 m
+                <sup>
+                  2
+                </sup>
+              </div>
+              <div
+                class="css-dmeso1"
+              >
+                Rating: 5.0 (1)
+              </div>
+            </div>
+            <button
+              class="css-4akejv"
+              disabled=""
+              title="not implemented"
+            >
+              To offer
+            </button>
           </div>
-          <button
-            class="css-1az93wp"
-            disabled=""
-          >
-            Click me
-          </button>
         </div>
       </div>
     </div>
@@ -335,31 +685,66 @@ exports[`renders app properly 1`] = `
       class="css-i65ldc"
     >
       <div
-        class="css-18sbqny"
+        class="css-fsfgwe"
       >
-        <img
-          class="css-9taffg"
-          src="https://img.holidu.com/images/2691944d-d1ba-4a8a-8b30-4f50d1d75156/t.jpg"
-        />
         <div
-          class="css-1f9rp2t"
+          class="css-13pqr4x"
         >
-          <h3
-            class="css-d1eliv"
-          >
-            CAN TIANET
-          </h3>
+          <img
+            class="css-9taffg"
+            src="https://img.holidu.com/images/2691944d-d1ba-4a8a-8b30-4f50d1d75156/t.jpg"
+          />
           <div
-            class="css-65w75"
+            class="css-yvgka3"
           >
-            10 pers.
+            <div
+              class="css-4wfasp"
+            >
+              <h3
+                class="css-kzlxxl"
+              >
+                CAN TIANET
+              </h3>
+              <div
+                class="css-tsqj0x"
+              >
+                <div
+                  class="css-65w75"
+                >
+                  7 nights
+                </div>
+                <div
+                  class="css-1lfgwp7"
+                >
+                  € 707
+                </div>
+              </div>
+            </div>
+            <div
+              class="css-b8jp8o"
+            >
+              <div
+                class="css-5h0skw"
+              >
+                10 pers., 5 bedroom(s), 320 m
+                <sup>
+                  2
+                </sup>
+              </div>
+              <div
+                class="css-dmeso1"
+              >
+                Rating: 4.5 (2)
+              </div>
+            </div>
+            <button
+              class="css-4akejv"
+              disabled=""
+              title="not implemented"
+            >
+              To offer
+            </button>
           </div>
-          <button
-            class="css-1az93wp"
-            disabled=""
-          >
-            Click me
-          </button>
         </div>
       </div>
     </div>
@@ -367,31 +752,66 @@ exports[`renders app properly 1`] = `
       class="css-i65ldc"
     >
       <div
-        class="css-18sbqny"
+        class="css-fsfgwe"
       >
-        <img
-          class="css-9taffg"
-          src="https://img.holidu.com/images/2691944d-d1ba-4a8a-8b30-4f50d1d75156/t.jpg"
-        />
         <div
-          class="css-1f9rp2t"
+          class="css-13pqr4x"
         >
-          <h3
-            class="css-d1eliv"
-          >
-            PORTA DE LA MAR
-          </h3>
+          <img
+            class="css-9taffg"
+            src="https://img.holidu.com/images/2691944d-d1ba-4a8a-8b30-4f50d1d75156/t.jpg"
+          />
           <div
-            class="css-65w75"
+            class="css-yvgka3"
           >
-            5 pers.
+            <div
+              class="css-4wfasp"
+            >
+              <h3
+                class="css-kzlxxl"
+              >
+                PORTA DE LA MAR
+              </h3>
+              <div
+                class="css-tsqj0x"
+              >
+                <div
+                  class="css-65w75"
+                >
+                  7 nights
+                </div>
+                <div
+                  class="css-1lfgwp7"
+                >
+                  € 770
+                </div>
+              </div>
+            </div>
+            <div
+              class="css-b8jp8o"
+            >
+              <div
+                class="css-5h0skw"
+              >
+                5 pers., 3 bedroom(s), 90 m
+                <sup>
+                  2
+                </sup>
+              </div>
+              <div
+                class="css-dmeso1"
+              >
+                Rating: 4.4 (3)
+              </div>
+            </div>
+            <button
+              class="css-4akejv"
+              disabled=""
+              title="not implemented"
+            >
+              To offer
+            </button>
           </div>
-          <button
-            class="css-1az93wp"
-            disabled=""
-          >
-            Click me
-          </button>
         </div>
       </div>
     </div>
@@ -399,31 +819,66 @@ exports[`renders app properly 1`] = `
       class="css-i65ldc"
     >
       <div
-        class="css-18sbqny"
+        class="css-fsfgwe"
       >
-        <img
-          class="css-9taffg"
-          src="https://img.holidu.com/images/2691944d-d1ba-4a8a-8b30-4f50d1d75156/t.jpg"
-        />
         <div
-          class="css-1f9rp2t"
+          class="css-13pqr4x"
         >
-          <h3
-            class="css-d1eliv"
-          >
-            BOSTON
-          </h3>
+          <img
+            class="css-9taffg"
+            src="https://img.holidu.com/images/2691944d-d1ba-4a8a-8b30-4f50d1d75156/t.jpg"
+          />
           <div
-            class="css-65w75"
+            class="css-yvgka3"
           >
-            4 pers.
+            <div
+              class="css-4wfasp"
+            >
+              <h3
+                class="css-kzlxxl"
+              >
+                BOSTON
+              </h3>
+              <div
+                class="css-tsqj0x"
+              >
+                <div
+                  class="css-65w75"
+                >
+                  7 nights
+                </div>
+                <div
+                  class="css-1lfgwp7"
+                >
+                  € 665
+                </div>
+              </div>
+            </div>
+            <div
+              class="css-b8jp8o"
+            >
+              <div
+                class="css-5h0skw"
+              >
+                4 pers., 2 bedroom(s), 78 m
+                <sup>
+                  2
+                </sup>
+              </div>
+              <div
+                class="css-dmeso1"
+              >
+                Rating: 2.5 (2)
+              </div>
+            </div>
+            <button
+              class="css-4akejv"
+              disabled=""
+              title="not implemented"
+            >
+              To offer
+            </button>
           </div>
-          <button
-            class="css-1az93wp"
-            disabled=""
-          >
-            Click me
-          </button>
         </div>
       </div>
     </div>
@@ -431,31 +886,66 @@ exports[`renders app properly 1`] = `
       class="css-i65ldc"
     >
       <div
-        class="css-18sbqny"
+        class="css-fsfgwe"
       >
-        <img
-          class="css-9taffg"
-          src="https://img.holidu.com/images/2691944d-d1ba-4a8a-8b30-4f50d1d75156/t.jpg"
-        />
         <div
-          class="css-1f9rp2t"
+          class="css-13pqr4x"
         >
-          <h3
-            class="css-d1eliv"
-          >
-            ES DESAIGUA
-          </h3>
+          <img
+            class="css-9taffg"
+            src="https://img.holidu.com/images/2691944d-d1ba-4a8a-8b30-4f50d1d75156/t.jpg"
+          />
           <div
-            class="css-65w75"
+            class="css-yvgka3"
           >
-            8 pers.
+            <div
+              class="css-4wfasp"
+            >
+              <h3
+                class="css-kzlxxl"
+              >
+                ES DESAIGUA
+              </h3>
+              <div
+                class="css-tsqj0x"
+              >
+                <div
+                  class="css-65w75"
+                >
+                  7 nights
+                </div>
+                <div
+                  class="css-1lfgwp7"
+                >
+                  € 616
+                </div>
+              </div>
+            </div>
+            <div
+              class="css-b8jp8o"
+            >
+              <div
+                class="css-5h0skw"
+              >
+                8 pers., 4 bedroom(s), 314 m
+                <sup>
+                  2
+                </sup>
+              </div>
+              <div
+                class="css-dmeso1"
+              >
+                Rating: 3.7 (5)
+              </div>
+            </div>
+            <button
+              class="css-4akejv"
+              disabled=""
+              title="not implemented"
+            >
+              To offer
+            </button>
           </div>
-          <button
-            class="css-1az93wp"
-            disabled=""
-          >
-            Click me
-          </button>
         </div>
       </div>
     </div>
@@ -463,31 +953,66 @@ exports[`renders app properly 1`] = `
       class="css-i65ldc"
     >
       <div
-        class="css-18sbqny"
+        class="css-fsfgwe"
       >
-        <img
-          class="css-9taffg"
-          src="https://img.holidu.com/images/2691944d-d1ba-4a8a-8b30-4f50d1d75156/t.jpg"
-        />
         <div
-          class="css-1f9rp2t"
+          class="css-13pqr4x"
         >
-          <h3
-            class="css-d1eliv"
-          >
-            ROSA DELS VENTS 2C
-          </h3>
+          <img
+            class="css-9taffg"
+            src="https://img.holidu.com/images/2691944d-d1ba-4a8a-8b30-4f50d1d75156/t.jpg"
+          />
           <div
-            class="css-65w75"
+            class="css-yvgka3"
           >
-            4 pers.
+            <div
+              class="css-4wfasp"
+            >
+              <h3
+                class="css-kzlxxl"
+              >
+                ROSA DELS VENTS 2C
+              </h3>
+              <div
+                class="css-tsqj0x"
+              >
+                <div
+                  class="css-65w75"
+                >
+                  7 nights
+                </div>
+                <div
+                  class="css-1lfgwp7"
+                >
+                  € 602
+                </div>
+              </div>
+            </div>
+            <div
+              class="css-b8jp8o"
+            >
+              <div
+                class="css-5h0skw"
+              >
+                4 pers., 2 bedroom(s), 70 m
+                <sup>
+                  2
+                </sup>
+              </div>
+              <div
+                class="css-dmeso1"
+              >
+                Rating: 3.8 (17)
+              </div>
+            </div>
+            <button
+              class="css-4akejv"
+              disabled=""
+              title="not implemented"
+            >
+              To offer
+            </button>
           </div>
-          <button
-            class="css-1az93wp"
-            disabled=""
-          >
-            Click me
-          </button>
         </div>
       </div>
     </div>
@@ -495,31 +1020,66 @@ exports[`renders app properly 1`] = `
       class="css-i65ldc"
     >
       <div
-        class="css-18sbqny"
+        class="css-fsfgwe"
       >
-        <img
-          class="css-9taffg"
-          src="https://img.holidu.com/images/2691944d-d1ba-4a8a-8b30-4f50d1d75156/t.jpg"
-        />
         <div
-          class="css-1f9rp2t"
+          class="css-13pqr4x"
         >
-          <h3
-            class="css-d1eliv"
-          >
-            VILLA FERNANDO
-          </h3>
+          <img
+            class="css-9taffg"
+            src="https://img.holidu.com/images/2691944d-d1ba-4a8a-8b30-4f50d1d75156/t.jpg"
+          />
           <div
-            class="css-65w75"
+            class="css-yvgka3"
           >
-            6 pers.
+            <div
+              class="css-4wfasp"
+            >
+              <h3
+                class="css-kzlxxl"
+              >
+                VILLA FERNANDO
+              </h3>
+              <div
+                class="css-tsqj0x"
+              >
+                <div
+                  class="css-65w75"
+                >
+                  7 nights
+                </div>
+                <div
+                  class="css-1lfgwp7"
+                >
+                  € 574
+                </div>
+              </div>
+            </div>
+            <div
+              class="css-b8jp8o"
+            >
+              <div
+                class="css-5h0skw"
+              >
+                6 pers., 3 bedroom(s), 130 m
+                <sup>
+                  2
+                </sup>
+              </div>
+              <div
+                class="css-dmeso1"
+              >
+                Rating: 4.8 (24)
+              </div>
+            </div>
+            <button
+              class="css-4akejv"
+              disabled=""
+              title="not implemented"
+            >
+              To offer
+            </button>
           </div>
-          <button
-            class="css-1az93wp"
-            disabled=""
-          >
-            Click me
-          </button>
         </div>
       </div>
     </div>
@@ -527,31 +1087,66 @@ exports[`renders app properly 1`] = `
       class="css-i65ldc"
     >
       <div
-        class="css-18sbqny"
+        class="css-fsfgwe"
       >
-        <img
-          class="css-9taffg"
-          src="https://img.holidu.com/images/2691944d-d1ba-4a8a-8b30-4f50d1d75156/t.jpg"
-        />
         <div
-          class="css-1f9rp2t"
+          class="css-13pqr4x"
         >
-          <h3
-            class="css-d1eliv"
-          >
-            TAMARELL
-          </h3>
+          <img
+            class="css-9taffg"
+            src="https://img.holidu.com/images/2691944d-d1ba-4a8a-8b30-4f50d1d75156/t.jpg"
+          />
           <div
-            class="css-65w75"
+            class="css-yvgka3"
           >
-            8 pers.
+            <div
+              class="css-4wfasp"
+            >
+              <h3
+                class="css-kzlxxl"
+              >
+                TAMARELL
+              </h3>
+              <div
+                class="css-tsqj0x"
+              >
+                <div
+                  class="css-65w75"
+                >
+                  7 nights
+                </div>
+                <div
+                  class="css-1lfgwp7"
+                >
+                  € 595
+                </div>
+              </div>
+            </div>
+            <div
+              class="css-b8jp8o"
+            >
+              <div
+                class="css-5h0skw"
+              >
+                8 pers., 4 bedroom(s), 240 m
+                <sup>
+                  2
+                </sup>
+              </div>
+              <div
+                class="css-dmeso1"
+              >
+                Rating: 3.9 (6)
+              </div>
+            </div>
+            <button
+              class="css-4akejv"
+              disabled=""
+              title="not implemented"
+            >
+              To offer
+            </button>
           </div>
-          <button
-            class="css-1az93wp"
-            disabled=""
-          >
-            Click me
-          </button>
         </div>
       </div>
     </div>
@@ -559,31 +1154,66 @@ exports[`renders app properly 1`] = `
       class="css-i65ldc"
     >
       <div
-        class="css-18sbqny"
+        class="css-fsfgwe"
       >
-        <img
-          class="css-9taffg"
-          src="https://img.holidu.com/images/2691944d-d1ba-4a8a-8b30-4f50d1d75156/t.jpg"
-        />
         <div
-          class="css-1f9rp2t"
+          class="css-13pqr4x"
         >
-          <h3
-            class="css-d1eliv"
-          >
-            SES PASADORES
-          </h3>
+          <img
+            class="css-9taffg"
+            src="https://img.holidu.com/images/2691944d-d1ba-4a8a-8b30-4f50d1d75156/t.jpg"
+          />
           <div
-            class="css-65w75"
+            class="css-yvgka3"
           >
-            6 pers.
+            <div
+              class="css-4wfasp"
+            >
+              <h3
+                class="css-kzlxxl"
+              >
+                SES PASADORES
+              </h3>
+              <div
+                class="css-tsqj0x"
+              >
+                <div
+                  class="css-65w75"
+                >
+                  7 nights
+                </div>
+                <div
+                  class="css-1lfgwp7"
+                >
+                  € 651
+                </div>
+              </div>
+            </div>
+            <div
+              class="css-b8jp8o"
+            >
+              <div
+                class="css-5h0skw"
+              >
+                6 pers., 3 bedroom(s), 179 m
+                <sup>
+                  2
+                </sup>
+              </div>
+              <div
+                class="css-dmeso1"
+              >
+                Rating: 4.8 (10)
+              </div>
+            </div>
+            <button
+              class="css-4akejv"
+              disabled=""
+              title="not implemented"
+            >
+              To offer
+            </button>
           </div>
-          <button
-            class="css-1az93wp"
-            disabled=""
-          >
-            Click me
-          </button>
         </div>
       </div>
     </div>
@@ -591,31 +1221,66 @@ exports[`renders app properly 1`] = `
       class="css-i65ldc"
     >
       <div
-        class="css-18sbqny"
+        class="css-fsfgwe"
       >
-        <img
-          class="css-9taffg"
-          src="https://img.holidu.com/images/2691944d-d1ba-4a8a-8b30-4f50d1d75156/t.jpg"
-        />
         <div
-          class="css-1f9rp2t"
+          class="css-13pqr4x"
         >
-          <h3
-            class="css-d1eliv"
-          >
-            LOS GERANIOS
-          </h3>
+          <img
+            class="css-9taffg"
+            src="https://img.holidu.com/images/2691944d-d1ba-4a8a-8b30-4f50d1d75156/t.jpg"
+          />
           <div
-            class="css-65w75"
+            class="css-yvgka3"
           >
-            9 pers.
+            <div
+              class="css-4wfasp"
+            >
+              <h3
+                class="css-kzlxxl"
+              >
+                LOS GERANIOS
+              </h3>
+              <div
+                class="css-tsqj0x"
+              >
+                <div
+                  class="css-65w75"
+                >
+                  7 nights
+                </div>
+                <div
+                  class="css-1lfgwp7"
+                >
+                  € 777
+                </div>
+              </div>
+            </div>
+            <div
+              class="css-b8jp8o"
+            >
+              <div
+                class="css-5h0skw"
+              >
+                9 pers., 5 bedroom(s), 220 m
+                <sup>
+                  2
+                </sup>
+              </div>
+              <div
+                class="css-dmeso1"
+              >
+                Rating: 0.0 (0)
+              </div>
+            </div>
+            <button
+              class="css-4akejv"
+              disabled=""
+              title="not implemented"
+            >
+              To offer
+            </button>
           </div>
-          <button
-            class="css-1az93wp"
-            disabled=""
-          >
-            Click me
-          </button>
         </div>
       </div>
     </div>
@@ -623,31 +1288,66 @@ exports[`renders app properly 1`] = `
       class="css-i65ldc"
     >
       <div
-        class="css-18sbqny"
+        class="css-fsfgwe"
       >
-        <img
-          class="css-9taffg"
-          src="https://img.holidu.com/images/2691944d-d1ba-4a8a-8b30-4f50d1d75156/t.jpg"
-        />
         <div
-          class="css-1f9rp2t"
+          class="css-13pqr4x"
         >
-          <h3
-            class="css-d1eliv"
-          >
-            Modernes Ferienhaus mit Garten, Terrasse, Balkon, Meerblick und WLAN; Garage vorhanden, Haustiere er...
-          </h3>
+          <img
+            class="css-9taffg"
+            src="https://img.holidu.com/images/2691944d-d1ba-4a8a-8b30-4f50d1d75156/t.jpg"
+          />
           <div
-            class="css-65w75"
+            class="css-yvgka3"
           >
-            8 pers.
+            <div
+              class="css-4wfasp"
+            >
+              <h3
+                class="css-kzlxxl"
+              >
+                Modernes Ferienhaus mit Garten, Terrasse, Balkon, Meerblick und WLAN; Garage vorhanden, Haustiere er...
+              </h3>
+              <div
+                class="css-tsqj0x"
+              >
+                <div
+                  class="css-65w75"
+                >
+                  7 nights
+                </div>
+                <div
+                  class="css-1lfgwp7"
+                >
+                  € 1470
+                </div>
+              </div>
+            </div>
+            <div
+              class="css-b8jp8o"
+            >
+              <div
+                class="css-5h0skw"
+              >
+                8 pers., 4 bedroom(s), 240 m
+                <sup>
+                  2
+                </sup>
+              </div>
+              <div
+                class="css-dmeso1"
+              >
+                Rating: 4.9 (4)
+              </div>
+            </div>
+            <button
+              class="css-4akejv"
+              disabled=""
+              title="not implemented"
+            >
+              To offer
+            </button>
           </div>
-          <button
-            class="css-1az93wp"
-            disabled=""
-          >
-            Click me
-          </button>
         </div>
       </div>
     </div>
@@ -655,31 +1355,66 @@ exports[`renders app properly 1`] = `
       class="css-i65ldc"
     >
       <div
-        class="css-18sbqny"
+        class="css-fsfgwe"
       >
-        <img
-          class="css-9taffg"
-          src="https://img.holidu.com/images/2691944d-d1ba-4a8a-8b30-4f50d1d75156/t.jpg"
-        />
         <div
-          class="css-1f9rp2t"
+          class="css-13pqr4x"
         >
-          <h3
-            class="css-d1eliv"
-          >
-            PASCUCAN
-          </h3>
+          <img
+            class="css-9taffg"
+            src="https://img.holidu.com/images/2691944d-d1ba-4a8a-8b30-4f50d1d75156/t.jpg"
+          />
           <div
-            class="css-65w75"
+            class="css-yvgka3"
           >
-            8 pers.
+            <div
+              class="css-4wfasp"
+            >
+              <h3
+                class="css-kzlxxl"
+              >
+                PASCUCAN
+              </h3>
+              <div
+                class="css-tsqj0x"
+              >
+                <div
+                  class="css-65w75"
+                >
+                  7 nights
+                </div>
+                <div
+                  class="css-1lfgwp7"
+                >
+                  € 476
+                </div>
+              </div>
+            </div>
+            <div
+              class="css-b8jp8o"
+            >
+              <div
+                class="css-5h0skw"
+              >
+                8 pers., 4 bedroom(s), 200 m
+                <sup>
+                  2
+                </sup>
+              </div>
+              <div
+                class="css-dmeso1"
+              >
+                Rating: 3.8 (8)
+              </div>
+            </div>
+            <button
+              class="css-4akejv"
+              disabled=""
+              title="not implemented"
+            >
+              To offer
+            </button>
           </div>
-          <button
-            class="css-1az93wp"
-            disabled=""
-          >
-            Click me
-          </button>
         </div>
       </div>
     </div>
@@ -687,31 +1422,66 @@ exports[`renders app properly 1`] = `
       class="css-i65ldc"
     >
       <div
-        class="css-18sbqny"
+        class="css-fsfgwe"
       >
-        <img
-          class="css-9taffg"
-          src="https://img.holidu.com/images/2691944d-d1ba-4a8a-8b30-4f50d1d75156/t.jpg"
-        />
         <div
-          class="css-1f9rp2t"
+          class="css-13pqr4x"
         >
-          <h3
-            class="css-d1eliv"
-          >
-            Apartment 60m²
-          </h3>
+          <img
+            class="css-9taffg"
+            src="https://img.holidu.com/images/2691944d-d1ba-4a8a-8b30-4f50d1d75156/t.jpg"
+          />
           <div
-            class="css-65w75"
+            class="css-yvgka3"
           >
-            4 pers.
+            <div
+              class="css-4wfasp"
+            >
+              <h3
+                class="css-kzlxxl"
+              >
+                Apartment 60m²
+              </h3>
+              <div
+                class="css-tsqj0x"
+              >
+                <div
+                  class="css-65w75"
+                >
+                  7 nights
+                </div>
+                <div
+                  class="css-1lfgwp7"
+                >
+                  € 308
+                </div>
+              </div>
+            </div>
+            <div
+              class="css-b8jp8o"
+            >
+              <div
+                class="css-5h0skw"
+              >
+                4 pers., 1 bedroom(s), 60 m
+                <sup>
+                  2
+                </sup>
+              </div>
+              <div
+                class="css-dmeso1"
+              >
+                Rating: 4.4 (9)
+              </div>
+            </div>
+            <button
+              class="css-4akejv"
+              disabled=""
+              title="not implemented"
+            >
+              To offer
+            </button>
           </div>
-          <button
-            class="css-1az93wp"
-            disabled=""
-          >
-            Click me
-          </button>
         </div>
       </div>
     </div>
@@ -719,31 +1489,66 @@ exports[`renders app properly 1`] = `
       class="css-i65ldc"
     >
       <div
-        class="css-18sbqny"
+        class="css-fsfgwe"
       >
-        <img
-          class="css-9taffg"
-          src="https://img.holidu.com/images/2691944d-d1ba-4a8a-8b30-4f50d1d75156/t.jpg"
-        />
         <div
-          class="css-1f9rp2t"
+          class="css-13pqr4x"
         >
-          <h3
-            class="css-d1eliv"
-          >
-            Finca 220m²
-          </h3>
+          <img
+            class="css-9taffg"
+            src="https://img.holidu.com/images/2691944d-d1ba-4a8a-8b30-4f50d1d75156/t.jpg"
+          />
           <div
-            class="css-65w75"
+            class="css-yvgka3"
           >
-            9 pers.
+            <div
+              class="css-4wfasp"
+            >
+              <h3
+                class="css-kzlxxl"
+              >
+                Finca 220m²
+              </h3>
+              <div
+                class="css-tsqj0x"
+              >
+                <div
+                  class="css-65w75"
+                >
+                  7 nights
+                </div>
+                <div
+                  class="css-1lfgwp7"
+                >
+                  € 1274
+                </div>
+              </div>
+            </div>
+            <div
+              class="css-b8jp8o"
+            >
+              <div
+                class="css-5h0skw"
+              >
+                9 pers., 4 bedroom(s), 220 m
+                <sup>
+                  2
+                </sup>
+              </div>
+              <div
+                class="css-dmeso1"
+              >
+                Rating: 5.0 (7)
+              </div>
+            </div>
+            <button
+              class="css-4akejv"
+              disabled=""
+              title="not implemented"
+            >
+              To offer
+            </button>
           </div>
-          <button
-            class="css-1az93wp"
-            disabled=""
-          >
-            Click me
-          </button>
         </div>
       </div>
     </div>
@@ -751,31 +1556,66 @@ exports[`renders app properly 1`] = `
       class="css-i65ldc"
     >
       <div
-        class="css-18sbqny"
+        class="css-fsfgwe"
       >
-        <img
-          class="css-9taffg"
-          src="https://img.holidu.com/images/2691944d-d1ba-4a8a-8b30-4f50d1d75156/t.jpg"
-        />
         <div
-          class="css-1f9rp2t"
+          class="css-13pqr4x"
         >
-          <h3
-            class="css-d1eliv"
-          >
-            Wunderschönes Ferienwohnung in unmittelbarer Nähe zum Strand mit Balkon, Terrasse, WLAN und Klimaanl...
-          </h3>
+          <img
+            class="css-9taffg"
+            src="https://img.holidu.com/images/2691944d-d1ba-4a8a-8b30-4f50d1d75156/t.jpg"
+          />
           <div
-            class="css-65w75"
+            class="css-yvgka3"
           >
-            6 pers.
+            <div
+              class="css-4wfasp"
+            >
+              <h3
+                class="css-kzlxxl"
+              >
+                Wunderschönes Ferienwohnung in unmittelbarer Nähe zum Strand mit Balkon, Terrasse, WLAN und Klimaanl...
+              </h3>
+              <div
+                class="css-tsqj0x"
+              >
+                <div
+                  class="css-65w75"
+                >
+                  7 nights
+                </div>
+                <div
+                  class="css-1lfgwp7"
+                >
+                  € 406
+                </div>
+              </div>
+            </div>
+            <div
+              class="css-b8jp8o"
+            >
+              <div
+                class="css-5h0skw"
+              >
+                6 pers., 3 bedroom(s), 117 m
+                <sup>
+                  2
+                </sup>
+              </div>
+              <div
+                class="css-dmeso1"
+              >
+                Rating: 0.0 (0)
+              </div>
+            </div>
+            <button
+              class="css-4akejv"
+              disabled=""
+              title="not implemented"
+            >
+              To offer
+            </button>
           </div>
-          <button
-            class="css-1az93wp"
-            disabled=""
-          >
-            Click me
-          </button>
         </div>
       </div>
     </div>
@@ -783,31 +1623,66 @@ exports[`renders app properly 1`] = `
       class="css-i65ldc"
     >
       <div
-        class="css-18sbqny"
+        class="css-fsfgwe"
       >
-        <img
-          class="css-9taffg"
-          src="https://img.holidu.com/images/2691944d-d1ba-4a8a-8b30-4f50d1d75156/t.jpg"
-        />
         <div
-          class="css-1f9rp2t"
+          class="css-13pqr4x"
         >
-          <h3
-            class="css-d1eliv"
-          >
-            BARCELO-DANUS
-          </h3>
+          <img
+            class="css-9taffg"
+            src="https://img.holidu.com/images/2691944d-d1ba-4a8a-8b30-4f50d1d75156/t.jpg"
+          />
           <div
-            class="css-65w75"
+            class="css-yvgka3"
           >
-            4 pers.
+            <div
+              class="css-4wfasp"
+            >
+              <h3
+                class="css-kzlxxl"
+              >
+                BARCELO-DANUS
+              </h3>
+              <div
+                class="css-tsqj0x"
+              >
+                <div
+                  class="css-65w75"
+                >
+                  7 nights
+                </div>
+                <div
+                  class="css-1lfgwp7"
+                >
+                  € 665
+                </div>
+              </div>
+            </div>
+            <div
+              class="css-b8jp8o"
+            >
+              <div
+                class="css-5h0skw"
+              >
+                4 pers., 3 bedroom(s), 120 m
+                <sup>
+                  2
+                </sup>
+              </div>
+              <div
+                class="css-dmeso1"
+              >
+                Rating: 5.0 (1)
+              </div>
+            </div>
+            <button
+              class="css-4akejv"
+              disabled=""
+              title="not implemented"
+            >
+              To offer
+            </button>
           </div>
-          <button
-            class="css-1az93wp"
-            disabled=""
-          >
-            Click me
-          </button>
         </div>
       </div>
     </div>
@@ -815,31 +1690,66 @@ exports[`renders app properly 1`] = `
       class="css-i65ldc"
     >
       <div
-        class="css-18sbqny"
+        class="css-fsfgwe"
       >
-        <img
-          class="css-9taffg"
-          src="https://img.holidu.com/images/2691944d-d1ba-4a8a-8b30-4f50d1d75156/t.jpg"
-        />
         <div
-          class="css-1f9rp2t"
+          class="css-13pqr4x"
         >
-          <h3
-            class="css-d1eliv"
-          >
-            In den Bergen mit Meerblick - Casa Can Sans
-          </h3>
+          <img
+            class="css-9taffg"
+            src="https://img.holidu.com/images/2691944d-d1ba-4a8a-8b30-4f50d1d75156/t.jpg"
+          />
           <div
-            class="css-65w75"
+            class="css-yvgka3"
           >
-            6 pers.
+            <div
+              class="css-4wfasp"
+            >
+              <h3
+                class="css-kzlxxl"
+              >
+                In den Bergen mit Meerblick - Casa Can Sans
+              </h3>
+              <div
+                class="css-tsqj0x"
+              >
+                <div
+                  class="css-65w75"
+                >
+                  7 nights
+                </div>
+                <div
+                  class="css-1lfgwp7"
+                >
+                  € 623
+                </div>
+              </div>
+            </div>
+            <div
+              class="css-b8jp8o"
+            >
+              <div
+                class="css-5h0skw"
+              >
+                6 pers., 3 bedroom(s), 150 m
+                <sup>
+                  2
+                </sup>
+              </div>
+              <div
+                class="css-dmeso1"
+              >
+                Rating: 3.2 (1)
+              </div>
+            </div>
+            <button
+              class="css-4akejv"
+              disabled=""
+              title="not implemented"
+            >
+              To offer
+            </button>
           </div>
-          <button
-            class="css-1az93wp"
-            disabled=""
-          >
-            Click me
-          </button>
         </div>
       </div>
     </div>
@@ -847,31 +1757,66 @@ exports[`renders app properly 1`] = `
       class="css-i65ldc"
     >
       <div
-        class="css-18sbqny"
+        class="css-fsfgwe"
       >
-        <img
-          class="css-9taffg"
-          src="https://img.holidu.com/images/2691944d-d1ba-4a8a-8b30-4f50d1d75156/t.jpg"
-        />
         <div
-          class="css-1f9rp2t"
+          class="css-13pqr4x"
         >
-          <h3
-            class="css-d1eliv"
-          >
-            Mit Pool und Bergblick - Finca Ca Na Pepa
-          </h3>
+          <img
+            class="css-9taffg"
+            src="https://img.holidu.com/images/2691944d-d1ba-4a8a-8b30-4f50d1d75156/t.jpg"
+          />
           <div
-            class="css-65w75"
+            class="css-yvgka3"
           >
-            8 pers.
+            <div
+              class="css-4wfasp"
+            >
+              <h3
+                class="css-kzlxxl"
+              >
+                Mit Pool und Bergblick - Finca Ca Na Pepa
+              </h3>
+              <div
+                class="css-tsqj0x"
+              >
+                <div
+                  class="css-65w75"
+                >
+                  7 nights
+                </div>
+                <div
+                  class="css-1lfgwp7"
+                >
+                  € 763
+                </div>
+              </div>
+            </div>
+            <div
+              class="css-b8jp8o"
+            >
+              <div
+                class="css-5h0skw"
+              >
+                8 pers., 4 bedroom(s), 150 m
+                <sup>
+                  2
+                </sup>
+              </div>
+              <div
+                class="css-dmeso1"
+              >
+                Rating: 4.5 (6)
+              </div>
+            </div>
+            <button
+              class="css-4akejv"
+              disabled=""
+              title="not implemented"
+            >
+              To offer
+            </button>
           </div>
-          <button
-            class="css-1az93wp"
-            disabled=""
-          >
-            Click me
-          </button>
         </div>
       </div>
     </div>
@@ -879,31 +1824,66 @@ exports[`renders app properly 1`] = `
       class="css-i65ldc"
     >
       <div
-        class="css-18sbqny"
+        class="css-fsfgwe"
       >
-        <img
-          class="css-9taffg"
-          src="https://img.holidu.com/images/2691944d-d1ba-4a8a-8b30-4f50d1d75156/t.jpg"
-        />
         <div
-          class="css-1f9rp2t"
+          class="css-13pqr4x"
         >
-          <h3
-            class="css-d1eliv"
-          >
-            SON DEL RIO VELL
-          </h3>
+          <img
+            class="css-9taffg"
+            src="https://img.holidu.com/images/2691944d-d1ba-4a8a-8b30-4f50d1d75156/t.jpg"
+          />
           <div
-            class="css-65w75"
+            class="css-yvgka3"
           >
-            6 pers.
+            <div
+              class="css-4wfasp"
+            >
+              <h3
+                class="css-kzlxxl"
+              >
+                SON DEL RIO VELL
+              </h3>
+              <div
+                class="css-tsqj0x"
+              >
+                <div
+                  class="css-65w75"
+                >
+                  7 nights
+                </div>
+                <div
+                  class="css-1lfgwp7"
+                >
+                  € 854
+                </div>
+              </div>
+            </div>
+            <div
+              class="css-b8jp8o"
+            >
+              <div
+                class="css-5h0skw"
+              >
+                6 pers., 3 bedroom(s), 115 m
+                <sup>
+                  2
+                </sup>
+              </div>
+              <div
+                class="css-dmeso1"
+              >
+                Rating: 4.2 (6)
+              </div>
+            </div>
+            <button
+              class="css-4akejv"
+              disabled=""
+              title="not implemented"
+            >
+              To offer
+            </button>
           </div>
-          <button
-            class="css-1az93wp"
-            disabled=""
-          >
-            Click me
-          </button>
         </div>
       </div>
     </div>
@@ -911,31 +1891,66 @@ exports[`renders app properly 1`] = `
       class="css-i65ldc"
     >
       <div
-        class="css-18sbqny"
+        class="css-fsfgwe"
       >
-        <img
-          class="css-9taffg"
-          src="https://img.holidu.com/images/2691944d-d1ba-4a8a-8b30-4f50d1d75156/t.jpg"
-        />
         <div
-          class="css-1f9rp2t"
+          class="css-13pqr4x"
         >
-          <h3
-            class="css-d1eliv"
-          >
-            ONDATEGUI 47
-          </h3>
+          <img
+            class="css-9taffg"
+            src="https://img.holidu.com/images/2691944d-d1ba-4a8a-8b30-4f50d1d75156/t.jpg"
+          />
           <div
-            class="css-65w75"
+            class="css-yvgka3"
           >
-            9 pers.
+            <div
+              class="css-4wfasp"
+            >
+              <h3
+                class="css-kzlxxl"
+              >
+                ONDATEGUI 47
+              </h3>
+              <div
+                class="css-tsqj0x"
+              >
+                <div
+                  class="css-65w75"
+                >
+                  7 nights
+                </div>
+                <div
+                  class="css-1lfgwp7"
+                >
+                  € 1701
+                </div>
+              </div>
+            </div>
+            <div
+              class="css-b8jp8o"
+            >
+              <div
+                class="css-5h0skw"
+              >
+                9 pers., 5 bedroom(s), 390 m
+                <sup>
+                  2
+                </sup>
+              </div>
+              <div
+                class="css-dmeso1"
+              >
+                Rating: 4.0 (5)
+              </div>
+            </div>
+            <button
+              class="css-4akejv"
+              disabled=""
+              title="not implemented"
+            >
+              To offer
+            </button>
           </div>
-          <button
-            class="css-1az93wp"
-            disabled=""
-          >
-            Click me
-          </button>
         </div>
       </div>
     </div>
@@ -943,31 +1958,66 @@ exports[`renders app properly 1`] = `
       class="css-i65ldc"
     >
       <div
-        class="css-18sbqny"
+        class="css-fsfgwe"
       >
-        <img
-          class="css-9taffg"
-          src="https://img.holidu.com/images/2691944d-d1ba-4a8a-8b30-4f50d1d75156/t.jpg"
-        />
         <div
-          class="css-1f9rp2t"
+          class="css-13pqr4x"
         >
-          <h3
-            class="css-d1eliv"
-          >
-            Haus am Meer mit Pool – Casa Juana Maria
-          </h3>
+          <img
+            class="css-9taffg"
+            src="https://img.holidu.com/images/2691944d-d1ba-4a8a-8b30-4f50d1d75156/t.jpg"
+          />
           <div
-            class="css-65w75"
+            class="css-yvgka3"
           >
-            8 pers.
+            <div
+              class="css-4wfasp"
+            >
+              <h3
+                class="css-kzlxxl"
+              >
+                Haus am Meer mit Pool – Casa Juana Maria
+              </h3>
+              <div
+                class="css-tsqj0x"
+              >
+                <div
+                  class="css-65w75"
+                >
+                  7 nights
+                </div>
+                <div
+                  class="css-1lfgwp7"
+                >
+                  € 1260
+                </div>
+              </div>
+            </div>
+            <div
+              class="css-b8jp8o"
+            >
+              <div
+                class="css-5h0skw"
+              >
+                8 pers., 5 bedroom(s), 200 m
+                <sup>
+                  2
+                </sup>
+              </div>
+              <div
+                class="css-dmeso1"
+              >
+                Rating: 4.9 (8)
+              </div>
+            </div>
+            <button
+              class="css-4akejv"
+              disabled=""
+              title="not implemented"
+            >
+              To offer
+            </button>
           </div>
-          <button
-            class="css-1az93wp"
-            disabled=""
-          >
-            Click me
-          </button>
         </div>
       </div>
     </div>

@@ -31,27 +31,81 @@ const Offers = () => {
             p: 1,
             borderRadius: 2,
             boxShadow: '0 0 8px rgba(0, 0, 0, .25)',
-            height: 400,
+            height: 420,
           }}
         >
-          <Image src="https://img.holidu.com/images/2691944d-d1ba-4a8a-8b30-4f50d1d75156/t.jpg" />
-          <Box px={2}>
-            <Heading
-              as="h3"
-              fontSize={2}
-              sx={{
-                overflow: 'hidden',
-                textOverflow: 'ellipsis',
-                whiteSpace: 'nowrap',
-              }}
+          <Flex flexDirection="column" height="100%">
+            <Image src="https://img.holidu.com/images/2691944d-d1ba-4a8a-8b30-4f50d1d75156/t.jpg" />
+            <Flex
+              alignItems="stretch"
+              alignContent="stretch"
+              justifyContent="center"
+              flexDirection="column"
+              flexGrow={1}
             >
-              {offer?.details?.name}
-            </Heading>
-            <Text fontSize={0}>{offer?.details?.guestsCount} pers.</Text>
-            <Button disabled variant="secondary">
-              Click me
-            </Button>
-          </Box>
+              <Flex p={2}>
+                <Heading
+                  as="h3"
+                  alignSelf="flex-end"
+                  fontSize={2}
+                  py={2}
+                  width={'80%'}
+                  sx={{
+                    overflow: 'hidden',
+                    textOverflow: 'ellipsis',
+                    whiteSpace: 'nowrap',
+                  }}
+                >
+                  {offer?.details?.name}
+                </Heading>
+                <Box
+                  width={'20%'}
+                  sx={{
+                    textAlign: 'right',
+                  }}
+                >
+                  <Text fontSize={0}>{offer?.price?.nights} nights</Text>
+                  <Text fontSize={2} fontWeight="bold">
+                    &euro; {offer?.price?.total}
+                  </Text>
+                </Box>
+              </Flex>
+              <Box
+                flexGrow={1}
+                m={2}
+                sx={{
+                  borderBottom: '1px solid #eeeeee',
+                }}
+              >
+                <Text fontSize={1}>
+                  {offer?.details?.guestsCount} pers.,{' '}
+                  {offer?.details?.bedroomsCount} bedroom(s),{' '}
+                  {offer?.details?.area?.value} m<sup>2</sup>
+                </Text>
+                <Text
+                  fontSize={1}
+                  sx={{
+                    color: '#999999',
+                  }}
+                >
+                  Rating: {((5 / 100) * offer?.rating?.value).toFixed(1)} (
+                  {offer?.rating?.count})
+                </Text>
+              </Box>
+
+              <Button
+                alignSelf="flex-end"
+                m={2}
+                disabled
+                title="not implemented"
+                sx={{
+                  backgroundColor: '#cccccc',
+                }}
+              >
+                To offer
+              </Button>
+            </Flex>
+          </Flex>
         </Card>
       </Box>
     ))
