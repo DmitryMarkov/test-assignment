@@ -3,12 +3,12 @@ import { loadOffersAction } from './offers.actions'
 
 const initialState = {
   metaData: {},
-  offers: [],
+  list: [],
 }
 
 const offers = createReducer(initialState, {
   [loadOffersAction]: (state, { payload }) => {
-    state.offers = payload.offers
+    state.list = payload.offers
     state.metaData = payload.metaData
   },
 })

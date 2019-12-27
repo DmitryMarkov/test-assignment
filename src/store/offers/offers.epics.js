@@ -2,6 +2,7 @@ import { fetchOffersAction, loadOffersAction } from './offers.actions'
 
 const BASE_URL = 'https://api.holidu.com/rest/v6'
 
+// this should be in another file, but it here for simplicity
 const getData = async () => {
   try {
     const res = await fetch(

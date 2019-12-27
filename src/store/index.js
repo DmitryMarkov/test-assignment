@@ -17,9 +17,9 @@ if (__DEV__) {
 }
 
 const store = configureStore({
-  reducer: rootReducer,
-  middleware: reduxMiddleware,
   devTools: __DEV__,
+  middleware: reduxMiddleware,
+  reducer: rootReducer,
 })
 
 export { store }

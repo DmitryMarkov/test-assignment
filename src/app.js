@@ -1,10 +1,10 @@
 import React from 'react'
-import { ThemeProvider } from 'emotion-theming'
 import theme from '@rebass/preset'
+import { ThemeProvider } from 'emotion-theming'
 import { Provider } from 'react-redux'
-import { store } from './store'
 import Header from './components/header'
 import Offers from './components/offers'
+import { store } from './store'
 
 const App = () => {
   return (

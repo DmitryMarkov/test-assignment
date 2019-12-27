@@ -17,7 +17,7 @@ const Header = React.memo(() => {
 
   return (
     name && (
-      <Heading as="h1" fontSize={4} m={3} data-testid="heading-title">
+      <Heading as="h1" data-testid="heading-title" fontSize={4} m={3}>
         {name}: {totalCount} {listTitle}
       </Heading>
     )

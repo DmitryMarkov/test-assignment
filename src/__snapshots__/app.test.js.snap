@@ -15,17 +15,16 @@ exports[`renders app properly 1`] = `
       class="css-i65ldc"
     >
       <div
-        class="css-fsfgwe"
+        class="css-86gxaz"
       >
         <div
           class="css-13pqr4x"
         >
-          <img
-            class="css-9taffg"
-            src="https://img.holidu.com/images/2691944d-d1ba-4a8a-8b30-4f50d1d75156/t.jpg"
+          <div
+            class="css-1ra7it7"
           />
           <div
-            class="css-yvgka3"
+            class="css-184szyn"
           >
             <div
               class="css-4wfasp"
@@ -39,7 +38,7 @@ exports[`renders app properly 1`] = `
                 class="css-tsqj0x"
               >
                 <div
-                  class="css-65w75"
+                  class="css-bbnvqk"
                 >
                   7 nights
                 </div>
@@ -51,12 +50,12 @@ exports[`renders app properly 1`] = `
               </div>
             </div>
             <div
-              class="css-b8jp8o"
+              class="css-48b112"
             >
               <div
                 class="css-5h0skw"
               >
-                8 pers., 4 bedroom(s), 256 m
+                8 pers., 4 bedrooms, 256m
                 <sup>
                   2
                 </sup>
@@ -64,11 +63,11 @@ exports[`renders app properly 1`] = `
               <div
                 class="css-dmeso1"
               >
-                Rating: 4.5 (6)
+                Rating: 4.5 (6 votes)
               </div>
             </div>
             <button
-              class="css-4akejv"
+              class="css-1jo60br"
               disabled=""
               title="not implemented"
             >
@@ -82,17 +81,16 @@ exports[`renders app properly 1`] = `
       class="css-i65ldc"
     >
       <div
-        class="css-fsfgwe"
+        class="css-86gxaz"
       >
         <div
           class="css-13pqr4x"
         >
-          <img
-            class="css-9taffg"
-            src="https://img.holidu.com/images/d04828d4-2c12-41f8-a219-72af8f533d01/t.jpg"
+          <div
+            class="css-r6lb5n"
           />
           <div
-            class="css-yvgka3"
+            class="css-184szyn"
           >
             <div
               class="css-4wfasp"
@@ -106,24 +104,24 @@ exports[`renders app properly 1`] = `
                 class="css-tsqj0x"
               >
                 <div
-                  class="css-65w75"
+                  class="css-bbnvqk"
                 >
                   7 nights
                 </div>
                 <div
                   class="css-1lfgwp7"
                 >
-                  € 1001
+                  € 1,001
                 </div>
               </div>
             </div>
             <div
-              class="css-b8jp8o"
+              class="css-48b112"
             >
               <div
                 class="css-5h0skw"
               >
-                6 pers., 4 bedroom(s), 253 m
+                6 pers., 4 bedrooms, 253m
                 <sup>
                   2
                 </sup>
@@ -131,11 +129,11 @@ exports[`renders app properly 1`] = `
               <div
                 class="css-dmeso1"
               >
-                Rating: 5.0 (12)
+                Rating: 5.0 (12 votes)
               </div>
             </div>
             <button
-              class="css-4akejv"
+              class="css-1jo60br"
               disabled=""
               title="not implemented"
             >
