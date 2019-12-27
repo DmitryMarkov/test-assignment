@@ -1,13 +1,14 @@
 import React, { useCallback, useEffect } from 'react'
 import { createSelector } from '@reduxjs/toolkit'
-import pluralize from 'pluralize'
 import { useDispatch, useSelector } from 'react-redux'
-import { Box, Button, Card, Flex, Heading, Text } from 'rebass'
+import { Box, Button, Card, Flex } from 'rebass'
+import OfferCardPrice from './components/offer-card-price'
+import OfferCardTitle from './components/offer-card-title'
+import OfferShortDescription from './components/offer-short-description'
+import Rating from './components/rating'
 import { fetchOffersAction } from '../../store/offers/offers.actions'
 
-const calculateRating = rating => ((5 / 100) * rating).toFixed(1)
-
-const offersSelector = createSelector(
+export const offersSelector = createSelector(
   ({ offers }) => offers.list,
   offers =>
     offers.map(({ details, id, photos, price, rating }) => ({
@@ -20,7 +21,7 @@ const offersSelector = createSelector(
       price: price?.total ?? 0,
       rating: rating?.value ?? 0,
       title: details?.name,
-      votes: rating?.count ?? 0,
+      votesCount: rating?.count ?? 0,
     }))
 )
 
@@ -62,34 +63,8 @@ const Offers = () => {
 
             <Flex flexDirection="column" flexGrow={1}>
               <Flex p={2}>
-                <Heading
-                  as="h3"
-                  alignSelf="flex-end"
-                  fontSize={2}
-                  py={2}
-                  width="80%"
-                  sx={{
-                    overflow: 'hidden',
-                    textOverflow: 'ellipsis',
-                    whiteSpace: 'nowrap',
-                  }}
-                >
-                  {offer.title}
-                </Heading>
-
-                <Box
-                  width="20%"
-                  sx={{
-                    textAlign: 'right',
-                  }}
-                >
-                  <Text fontSize={0} color="#999999">
-                    {pluralize('night', offer.nights, true)}
-                  </Text>
-                  <Text fontSize={2} fontWeight="bold">
-                    &euro; {offer.price.toLocaleString()}
-                  </Text>
-                </Box>
+                <OfferCardTitle title={offer.title} />
+                <OfferCardPrice nights={offer.nights} price={offer.price} />
               </Flex>
 
               <Box
@@ -100,14 +75,12 @@ const Offers = () => {
                   borderBottom: '1px solid #eeeeee',
                 }}
               >
-                <Text fontSize={1}>
-                  {offer.guestsCount} pers.,{' '}
-                  {pluralize('bedroom', offer.bedroomsCount, true)},{' '}
-                  {offer.area}m<sup>2</sup>
-                </Text>
-                <Text color="#999999" fontSize={1}>
-                  Rating: {calculateRating(offer.rating)} ({offer.votes} votes)
-                </Text>
+                <OfferShortDescription
+                  area={offer.area}
+                  bedroomsCount={offer.bedroomsCount}
+                  guestsCount={offer.guestsCount}
+                />
+                <Rating rating={offer.rating} votesCount={offer.votesCount} />
               </Box>
 
               <Button

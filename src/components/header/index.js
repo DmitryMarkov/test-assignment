@@ -3,7 +3,7 @@ import { createSelector } from '@reduxjs/toolkit'
 import { useSelector } from 'react-redux'
 import { Heading } from 'rebass'
 
-const headerSelector = createSelector(
+export const headerSelector = createSelector(
   ({ offers }) => offers.metaData,
   metaData => ({
     listTitle: metaData?.listTitle,
