@@ -1,15 +1,27 @@
 import { createReducer } from '@reduxjs/toolkit'
-import { loadOffersAction } from './offers.actions'
+import {
+  loadingOffersEndAction,
+  loadingOffersStartAction,
+  loadOffersAction,
+} from './offers.actions'
 
 const initialState = {
-  metaData: {},
+  error: undefined,
   list: [],
+  loading: false,
+  metaData: {},
 }
 
 const offers = createReducer(initialState, {
   [loadOffersAction]: (state, { payload }) => {
     state.list = payload.offers
     state.metaData = payload.metaData
+  },
+  [loadingOffersStartAction]: state => {
+    state.loading = true
+  },
+  [loadingOffersEndAction]: state => {
+    state.loading = false
   },
 })
 

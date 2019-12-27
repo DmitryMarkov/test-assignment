@@ -2,10 +2,14 @@ import React, { useCallback, useEffect } from 'react'
 import { createSelector } from '@reduxjs/toolkit'
 import { useDispatch, useSelector } from 'react-redux'
 import { Box, Button, Card, Flex } from 'rebass'
-import OfferCardPrice from './components/offer-card-price'
-import OfferCardTitle from './components/offer-card-title'
-import OfferShortDescription from './components/offer-short-description'
-import Rating from './components/rating'
+import {
+  ErrorMessage,
+  Loading,
+  OfferCardPrice,
+  OfferCardTitle,
+  OfferShortDescription,
+  Rating,
+} from './components'
 import { fetchOffersAction } from '../../store/offers/offers.actions'
 
 export const offersSelector = createSelector(
@@ -37,8 +41,19 @@ const Offers = () => {
   }, [fetchOffers])
 
   const offers = useSelector(offersSelector)
+  const error = useSelector(({ offers }) => offers.error)
+  const loading = useSelector(({ offers }) => offers.loading)
+
+  if (loading) {
+    return <Loading />
+  }
+
+  if (!loading && error) {
+    return <ErrorMessage />
+  }
 
   const renderOffers = () =>
+    offers.length > 0 &&
     offers.map(offer => (
       <Box key={offer.id} px={0} py={0} width={366}>
         <Card
@@ -99,11 +114,9 @@ const Offers = () => {
     ))
 
   return (
-    offers.length > 0 && (
-      <Flex flexWrap="wrap" mx={1}>
-        {renderOffers()}
-      </Flex>
-    )
+    <Flex flexWrap="wrap" mx={1}>
+      {renderOffers()}
+    </Flex>
   )
 }
 

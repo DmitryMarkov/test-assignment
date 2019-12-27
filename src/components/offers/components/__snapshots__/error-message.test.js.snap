@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ErrorMessage should render properly 1`] = `
+<DocumentFragment>
+  <div
+    class="css-1wwnm4s"
+  >
+    Sorry, we cannot load offers. If you think this is an error try to reload this page again.
+  </div>
+</DocumentFragment>
+`;

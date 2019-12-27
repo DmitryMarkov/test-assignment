@@ -1,4 +1,9 @@
-import { fetchOffersAction, loadOffersAction } from './offers.actions'
+import {
+  fetchOffersAction,
+  loadingOffersEndAction,
+  loadingOffersStartAction,
+  loadOffersAction,
+} from './offers.actions'
 
 const BASE_URL = 'https://api.holidu.com/rest/v6'
 
@@ -10,7 +15,7 @@ const getData = async () => {
     )
     return await res.json()
   } catch (error) {
-    return error
+    throw Error(error)
   }
 }
 
@@ -21,13 +26,21 @@ const offersService = {
 const fetchOffers = dispatch => {
   offersService
     .getData()
-    .then(payload => dispatch(loadOffersAction(payload)))
-    .catch(error => dispatch(loadOffersAction(error)))
+    .then(payload => {
+      dispatch(loadOffersAction(payload))
+      dispatch(loadingOffersEndAction())
+    })
+    .catch(error => {
+      dispatch(loadOffersAction({ error: error.toString() }))
+      dispatch(loadingOffersEndAction())
+    })
 }
 
+// actual epic
 const offersEpics = ({ dispatch }) => next => action => {
   switch (action.type) {
     case fetchOffersAction.type: {
+      dispatch(loadingOffersStartAction())
       fetchOffers(dispatch)
       break
     }

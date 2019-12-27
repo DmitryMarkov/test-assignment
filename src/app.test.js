@@ -17,9 +17,32 @@ global.fetch = jest.fn().mockImplementation(
 )
 
 test('renders app properly', async () => {
-  const { asFragment, getByTestId } = render(<App />)
+  const { asFragment, getByTestId, getByText } = render(<App />)
+
+  expect(getByText(/Loading/)).toBeInTheDocument()
+
   const headingTitle = await waitForElement(() => getByTestId('heading-title'))
 
   expect(headingTitle).toBeInTheDocument()
   expect(asFragment()).toMatchSnapshot()
+})
+
+test('app show error message if server respond with error', async () => {
+  global.fetch = jest.fn().mockImplementation(
+    () =>
+      new Promise((_resolve, reject) => {
+        reject({
+          ok: false,
+          Id: 'test',
+          json: function() {
+            return '<html>404 not found</html>'
+          },
+        })
+      })
+  )
+
+  const { getByText } = render(<App />)
+  const errorMessage = await waitForElement(() => getByText(/Sorry/))
+
+  expect(errorMessage).toBeInTheDocument()
 })
