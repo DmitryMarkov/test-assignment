@@ -1,3 +1,4 @@
+import Api from '../../api'
 import {
   fetchOffersAction,
   loadingOffersEndAction,
@@ -5,27 +6,8 @@ import {
   loadOffersAction,
 } from './offers.actions'
 
-const BASE_URL = 'https://api.holidu.com'
-
-// this should be in another file, but it here for simplicity
-const getData = async (
-  url = `/rest/v6/search/offers?searchTerm=Mallorca,%20Spanien`
-) => {
-  try {
-    const res = await fetch(`${BASE_URL}${url}`)
-    return await res.json()
-  } catch (error) {
-    throw Error(error)
-  }
-}
-
-const offersService = {
-  getData,
-}
-
 const fetchOffers = (dispatch, payload) => {
-  offersService
-    .getData(payload)
+  Api.fetchOffers(payload)
     .then(payload => {
       dispatch(loadOffersAction(payload))
       dispatch(loadingOffersEndAction())
