@@ -1,5 +1,6 @@
 import React, { useCallback, useEffect } from 'react'
 import { createSelector } from '@reduxjs/toolkit'
+import ReactList from 'react-list'
 import { useDispatch, useSelector } from 'react-redux'
 import SimpleImageSlider from 'react-simple-image-slider'
 import { Box, Button, Card, Flex } from 'rebass'
@@ -53,69 +54,82 @@ const Offers = () => {
     return <ErrorMessage />
   }
 
-  const renderOffers = () =>
-    offers.length > 0 &&
-    offers.map(offer => (
-      <Box key={offer.id} px={0} py={0} width={366}>
-        <Card
-          sx={{
-            borderRadius: 2,
-            boxShadow: '0 3px 8px rgba(0, 0, 0, .20)',
-            height: 420,
-            m: 2,
-            p: 1,
-          }}
-        >
-          <Flex flexDirection="column" height="100%">
-            <SimpleImageSlider
-              width={342}
-              height={240}
-              images={offer.photos
-                ?.slice(0, 5)
-                .map((_, index) => ({ url: offer.photos?.[index]?.t }))}
-            />
+  const renderItem = (i, key) => (
+    <Box key={key} px={0} py={0} width={366}>
+      <Card
+        sx={{
+          borderRadius: 2,
+          boxShadow: '0 3px 8px rgba(0, 0, 0, .20)',
+          height: 420,
+          m: 2,
+          p: 1,
+        }}
+      >
+        <Flex flexDirection="column" height="100%">
+          <SimpleImageSlider
+            width={342}
+            height={240}
+            images={offers[i].photos
+              ?.slice(0, 5)
+              .map((_, index) => ({ url: offers[i].photos?.[index]?.t }))}
+          />
 
-            <Flex flexDirection="column" flexGrow={1}>
-              <Flex p={2}>
-                <OfferCardTitle title={offer.title} />
-                <OfferCardPrice nights={offer.nights} price={offer.price} />
-              </Flex>
-
-              <Box
-                flexGrow={1}
-                mx={2}
-                my={0}
-                sx={{
-                  borderBottom: '1px solid #eeeeee',
-                }}
-              >
-                <OfferShortDescription
-                  area={offer.area}
-                  bedroomsCount={offer.bedroomsCount}
-                  guestsCount={offer.guestsCount}
-                />
-                <Rating rating={offer.rating} votesCount={offer.votesCount} />
-              </Box>
-
-              <Button
-                alignSelf="flex-end"
-                bg="#cccccc"
-                disabled
-                m={2}
-                title="not implemented"
-              >
-                To offer
-              </Button>
+          <Flex flexDirection="column" flexGrow={1}>
+            <Flex p={2}>
+              <OfferCardTitle title={offers[i].title} />
+              <OfferCardPrice
+                nights={offers[i].nights}
+                price={offers[i].price}
+              />
             </Flex>
+
+            <Box
+              flexGrow={1}
+              mx={2}
+              my={0}
+              sx={{
+                borderBottom: '1px solid #eeeeee',
+              }}
+            >
+              <OfferShortDescription
+                area={offers[i].area}
+                bedroomsCount={offers[i].bedroomsCount}
+                guestsCount={offers[i].guestsCount}
+              />
+              <Rating
+                rating={offers[i].rating}
+                votesCount={offers[i].votesCount}
+              />
+            </Box>
+
+            <Button
+              alignSelf="flex-end"
+              bg="#cccccc"
+              disabled
+              m={2}
+              title="not implemented"
+            >
+              To offer
+            </Button>
           </Flex>
-        </Card>
-      </Box>
-    ))
+        </Flex>
+      </Card>
+    </Box>
+  )
+
+  const renderItems = (items, ref) => (
+    <Flex flexWrap="wrap" mx={1} ref={ref}>
+      {items}
+    </Flex>
+  )
 
   return (
-    <Flex flexWrap="wrap" mx={1}>
-      {renderOffers()}
-    </Flex>
+    <ReactList
+      itemRenderer={renderItem}
+      itemsRenderer={renderItems}
+      length={offers.length}
+      type="simple"
+    />
   )
 }
 
