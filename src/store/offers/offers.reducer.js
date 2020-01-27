@@ -14,7 +14,7 @@ const initialState = {
 
 const offers = createReducer(initialState, {
   [loadOffersAction]: (state, { payload }) => {
-    state.list = payload.offers
+    state.list = [...state.list, ...payload.offers]
     state.metaData = payload.metaData
   },
   [loadingOffersStartAction]: state => {

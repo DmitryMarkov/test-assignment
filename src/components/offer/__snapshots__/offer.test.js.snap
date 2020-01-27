@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Offer should render properly 1`] = `
+<DocumentFragment>
+  <h1
+    class="css-15icvz4"
+    data-testid="heading-title"
+  >
+    Details page for id: 
+  </h1>
+  <div
+    class="css-1nvlnqn"
+  >
+    Details to be done
+  </div>
+  <button
+    class="css-1ri1vrn"
+  >
+    Go Back
+  </button>
+</DocumentFragment>
+`;
