@@ -5,14 +5,14 @@ import {
   loadOffersAction,
 } from './offers.actions'
 
-const BASE_URL = 'https://api.holidu.com/rest/v6'
+const BASE_URL = 'https://api.holidu.com'
 
 // this should be in another file, but it here for simplicity
-const getData = async () => {
+const getData = async (
+  url = `/rest/v6/search/offers?searchTerm=Mallorca,%20Spanien`
+) => {
   try {
-    const res = await fetch(
-      `${BASE_URL}/search/offers?searchTerm=Mallorca,%20Spanien`
-    )
+    const res = await fetch(`${BASE_URL}${url}`)
     return await res.json()
   } catch (error) {
     throw Error(error)
@@ -23,9 +23,9 @@ const offersService = {
   getData,
 }
 
-const fetchOffers = dispatch => {
+const fetchOffers = (dispatch, payload) => {
   offersService
-    .getData()
+    .getData(payload)
     .then(payload => {
       dispatch(loadOffersAction(payload))
       dispatch(loadingOffersEndAction())
@@ -37,11 +37,13 @@ const fetchOffers = dispatch => {
 }
 
 // actual epic
-const offersEpics = ({ dispatch }) => next => action => {
+const offersEpics = ({ dispatch, getState }) => next => action => {
   switch (action.type) {
     case fetchOffersAction.type: {
-      dispatch(loadingOffersStartAction())
-      fetchOffers(dispatch)
+      if (!getState().offers.list.length) {
+        dispatch(loadingOffersStartAction())
+      }
+      fetchOffers(dispatch, action.payload)
       break
     }
     default:

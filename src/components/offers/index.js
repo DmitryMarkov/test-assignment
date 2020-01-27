@@ -1,5 +1,6 @@
-import React, { useCallback, useEffect } from 'react'
+import React, { useCallback, useEffect, useRef } from 'react'
 import { createSelector } from '@reduxjs/toolkit'
+import useWindowScrollPosition from '@rehooks/window-scroll-position'
 import ReactList from 'react-list'
 import { useDispatch, useSelector } from 'react-redux'
 import { useHistory } from 'react-router-dom'
@@ -14,6 +15,8 @@ import {
   Rating,
 } from './components'
 import { fetchOffersAction } from '../../store/offers/offers.actions'
+
+const CARD_WIDTH_PX = 366
 
 export const offersSelector = createSelector(
   ({ offers }) => offers.list,
@@ -35,20 +38,42 @@ export const offersSelector = createSelector(
 const Offers = () => {
   const dispatch = useDispatch()
   const history = useHistory()
+  const position = useWindowScrollPosition({ throttle: 900 })
+  const reactList = useRef(null)
 
   const offers = useSelector(offersSelector)
   const error = useSelector(({ offers }) => offers.error)
   const loading = useSelector(({ offers }) => offers.loading)
+  const cursor = useSelector(({ offers }) => offers.metaData.cursor)
 
-  const fetchOffers = useCallback(() => dispatch(fetchOffersAction()), [
-    dispatch,
-  ])
+  // TODO: this should be calculated on resize
+  const cardsInRow = Math.floor(window.innerWidth / CARD_WIDTH_PX)
+
+  const fetchOffers = useCallback(
+    payload => dispatch(fetchOffersAction(payload)),
+    [dispatch]
+  )
 
   useEffect(() => {
     if (!offers.length) {
       fetchOffers()
     }
   }, [fetchOffers, offers])
+
+  useEffect(() => {
+    const visibleRange = reactList?.current?.getVisibleRange() ?? []
+
+    if (visibleRange[1]) {
+      const lastVisibleCard = (visibleRange[1] + 1) * cardsInRow
+
+      const shouldLoadMore =
+        lastVisibleCard > offers.length - cardsInRow && cursor.nextPage !== null
+
+      if (shouldLoadMore) {
+        fetchOffers(cursor.nextPage)
+      }
+    }
+  }, [cardsInRow, cursor, fetchOffers, offers.length, position])
 
   if (loading) {
     return <Loading />
@@ -61,7 +86,7 @@ const Offers = () => {
   const handleOfferClick = id => () => history.push(`/offer/${id}`)
 
   const renderItem = (i, key) => (
-    <Box key={key} px={0} py={0} width={366}>
+    <Box key={key} px={0} py={0} width={CARD_WIDTH_PX}>
       <Card
         sx={{
           borderRadius: 2,
@@ -132,6 +157,7 @@ const Offers = () => {
       itemRenderer={renderItem}
       itemsRenderer={renderItems}
       length={offers.length}
+      ref={reactList}
       type="simple"
     />
   )
