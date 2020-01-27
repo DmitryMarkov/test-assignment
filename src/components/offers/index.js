@@ -2,6 +2,7 @@ import React, { useCallback, useEffect } from 'react'
 import { createSelector } from '@reduxjs/toolkit'
 import ReactList from 'react-list'
 import { useDispatch, useSelector } from 'react-redux'
+import { useHistory } from 'react-router-dom'
 import SimpleImageSlider from 'react-simple-image-slider'
 import { Box, Button, Card, Flex } from 'rebass'
 import {
@@ -33,18 +34,21 @@ export const offersSelector = createSelector(
 
 const Offers = () => {
   const dispatch = useDispatch()
+  const history = useHistory()
+
+  const offers = useSelector(offersSelector)
+  const error = useSelector(({ offers }) => offers.error)
+  const loading = useSelector(({ offers }) => offers.loading)
 
   const fetchOffers = useCallback(() => dispatch(fetchOffersAction()), [
     dispatch,
   ])
 
   useEffect(() => {
-    fetchOffers()
-  }, [fetchOffers])
-
-  const offers = useSelector(offersSelector)
-  const error = useSelector(({ offers }) => offers.error)
-  const loading = useSelector(({ offers }) => offers.loading)
+    if (!offers.length) {
+      fetchOffers()
+    }
+  }, [fetchOffers, offers])
 
   if (loading) {
     return <Loading />
@@ -53,6 +57,8 @@ const Offers = () => {
   if (!loading && error) {
     return <ErrorMessage />
   }
+
+  const handleOfferClick = id => () => history.push(`/offer/${id}`)
 
   const renderItem = (i, key) => (
     <Box key={key} px={0} py={0} width={366}>
@@ -104,10 +110,8 @@ const Offers = () => {
 
             <Button
               alignSelf="flex-end"
-              bg="#cccccc"
-              disabled
               m={2}
-              title="not implemented"
+              onClick={handleOfferClick(offers[i].id)}
             >
               To offer
             </Button>

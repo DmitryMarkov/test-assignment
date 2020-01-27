@@ -21,8 +21,62 @@ exports[`renders app properly 1`] = `
           class="css-13pqr4x"
         >
           <div
-            class="css-1ra7it7"
-          />
+            class="image-slider"
+            style="display: block; margin: 0px; padding: 0px; border: 0px; overflow: hidden; width: 342px; height: 240px; background: rgb(0, 0, 0);"
+          >
+            <div
+              style="display: block; margin: 0px; padding: 0px; border: 0px; position: absolute; overflow: hidden; width: 342px; height: 240px;"
+            >
+              <div
+                style="display: block; margin: 0px; padding: 0px; border: 0px; position: absolute; left: 0px; top: 0px; width: 100%; height: 100%;"
+              >
+                <div
+                  style="position: absolute; left: 0px; top: 0px; width: 100%; height: 100%; background-size: cover; overflow: hidden; transition: 0.5s; background-image: url(https://img.holidu.com/images/2691944d-d1ba-4a8a-8b30-4f50d1d75156/t.jpg); transform: translate(0px, 0px);"
+                />
+                <div
+                  style="position: absolute; left: 0px; top: 0px; width: 100%; height: 100%; background-size: cover; overflow: hidden; transition: 0.5s; background-image: url(https://img.holidu.com/images/eb272292-db6b-4d73-a790-ce15ae0f2c50/t.jpg); transform: translate(342px, 0px);"
+                />
+              </div>
+              <button
+                style="display: block; margin: -25px 0px 0px 0px; padding: 0px; border: 0px; position: absolute; top: 50%; cursor: pointer; outline: none; background: none; right: 30px;"
+                type="button"
+              >
+                <img
+                  alt="slide to right"
+                  src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAQAAAC0NkA6AAABQ0lEQVRYw+3WvWoCQRQF4LPgEhAWLESJpY15A4mNbdoUgkWKPIWF2NmKFiEWeYBsI+YhQl4gCQGfwEII/oGVXn9IBOPc2cIzTdyZduFj9t57ZiBwvxEjMfKvEaAWzNv9DDz9i+06DbkYhiKzj4ecxjCQVOX+eywy/dQYBpJEsdQazXSGgXhIoXzd1hkGEslQkKjTkBA7Q0NsDBHRGSqiMWTkkJn8MHTExDhANIaMmBk6Yq4NHdkznflCZPxeCJwgOybTe1qJyMszLl0h/ldDNsbjG26RdvO7/EF9S3RfcYc8fBeF/0O4aOEjgj+MBoIdK0e14AekodzsqDd2FPfSUpqWef2qc8F7SFhGj/Uksk4353EXESAMJDKjGEgQNpcrWwxSEJRvmqjqSctAEsjiCrnfjNLWqYX3NpAHOEQ4O0bOFFkD6w4BsXFPGt0AAAAASUVORK5CYII="
+                />
+              </button>
+              <div
+                style="display: block; margin: 0px 0px 0px -52.5px; padding: 0px; border: 0px; position: absolute; left: 50%; bottom: 15px;"
+              >
+                <button
+                  class="image-slider-bullets"
+                  style="display: inline-block; margin: 0px 3px 0px 3px; padding: 0px; border: 1px solid #ffffff; cursor: pointer; outline: none; background: rgb(255, 255, 255); box-shadow: 1px 1px 1px 0px #1a1a1a; border-radius: 50%; width: 15px; height: 15px;"
+                  type="button"
+                />
+                <button
+                  class="image-slider-bullets"
+                  style="display: inline-block; margin: 0px 3px 0px 3px; padding: 0px; border: 1px solid #ffffff; cursor: pointer; outline: none; background: none; box-shadow: 1px 1px 1px 0px #1a1a1a; border-radius: 50%; width: 15px; height: 15px;"
+                  type="button"
+                />
+                <button
+                  class="image-slider-bullets"
+                  style="display: inline-block; margin: 0px 3px 0px 3px; padding: 0px; border: 1px solid #ffffff; cursor: pointer; outline: none; background: none; box-shadow: 1px 1px 1px 0px #1a1a1a; border-radius: 50%; width: 15px; height: 15px;"
+                  type="button"
+                />
+                <button
+                  class="image-slider-bullets"
+                  style="display: inline-block; margin: 0px 3px 0px 3px; padding: 0px; border: 1px solid #ffffff; cursor: pointer; outline: none; background: none; box-shadow: 1px 1px 1px 0px #1a1a1a; border-radius: 50%; width: 15px; height: 15px;"
+                  type="button"
+                />
+                <button
+                  class="image-slider-bullets"
+                  style="display: inline-block; margin: 0px 3px 0px 3px; padding: 0px; border: 1px solid #ffffff; cursor: pointer; outline: none; background: none; box-shadow: 1px 1px 1px 0px #1a1a1a; border-radius: 50%; width: 15px; height: 15px;"
+                  type="button"
+                />
+              </div>
+            </div>
+          </div>
           <div
             class="css-184szyn"
           >
@@ -67,9 +121,7 @@ exports[`renders app properly 1`] = `
               </div>
             </div>
             <button
-              class="css-1jo60br"
-              disabled=""
-              title="not implemented"
+              class="css-1qx3wkf"
             >
               To offer
             </button>
@@ -87,8 +139,62 @@ exports[`renders app properly 1`] = `
           class="css-13pqr4x"
         >
           <div
-            class="css-r6lb5n"
-          />
+            class="image-slider"
+            style="display: block; margin: 0px; padding: 0px; border: 0px; overflow: hidden; width: 342px; height: 240px; background: rgb(0, 0, 0);"
+          >
+            <div
+              style="display: block; margin: 0px; padding: 0px; border: 0px; position: absolute; overflow: hidden; width: 342px; height: 240px;"
+            >
+              <div
+                style="display: block; margin: 0px; padding: 0px; border: 0px; position: absolute; left: 0px; top: 0px; width: 100%; height: 100%;"
+              >
+                <div
+                  style="position: absolute; left: 0px; top: 0px; width: 100%; height: 100%; background-size: cover; overflow: hidden; transition: 0.5s; background-image: url(https://img.holidu.com/images/d04828d4-2c12-41f8-a219-72af8f533d01/t.jpg); transform: translate(0px, 0px);"
+                />
+                <div
+                  style="position: absolute; left: 0px; top: 0px; width: 100%; height: 100%; background-size: cover; overflow: hidden; transition: 0.5s; background-image: url(https://img.holidu.com/images/a1e6e955-471f-44cd-a5e7-444c4531e8fa/t.jpg); transform: translate(342px, 0px);"
+                />
+              </div>
+              <button
+                style="display: block; margin: -25px 0px 0px 0px; padding: 0px; border: 0px; position: absolute; top: 50%; cursor: pointer; outline: none; background: none; right: 30px;"
+                type="button"
+              >
+                <img
+                  alt="slide to right"
+                  src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAQAAAC0NkA6AAABQ0lEQVRYw+3WvWoCQRQF4LPgEhAWLESJpY15A4mNbdoUgkWKPIWF2NmKFiEWeYBsI+YhQl4gCQGfwEII/oGVXn9IBOPc2cIzTdyZduFj9t57ZiBwvxEjMfKvEaAWzNv9DDz9i+06DbkYhiKzj4ecxjCQVOX+eywy/dQYBpJEsdQazXSGgXhIoXzd1hkGEslQkKjTkBA7Q0NsDBHRGSqiMWTkkJn8MHTExDhANIaMmBk6Yq4NHdkznflCZPxeCJwgOybTe1qJyMszLl0h/ldDNsbjG26RdvO7/EF9S3RfcYc8fBeF/0O4aOEjgj+MBoIdK0e14AekodzsqDd2FPfSUpqWef2qc8F7SFhGj/Uksk4353EXESAMJDKjGEgQNpcrWwxSEJRvmqjqSctAEsjiCrnfjNLWqYX3NpAHOEQ4O0bOFFkD6w4BsXFPGt0AAAAASUVORK5CYII="
+                />
+              </button>
+              <div
+                style="display: block; margin: 0px 0px 0px -52.5px; padding: 0px; border: 0px; position: absolute; left: 50%; bottom: 15px;"
+              >
+                <button
+                  class="image-slider-bullets"
+                  style="display: inline-block; margin: 0px 3px 0px 3px; padding: 0px; border: 1px solid #ffffff; cursor: pointer; outline: none; background: rgb(255, 255, 255); box-shadow: 1px 1px 1px 0px #1a1a1a; border-radius: 50%; width: 15px; height: 15px;"
+                  type="button"
+                />
+                <button
+                  class="image-slider-bullets"
+                  style="display: inline-block; margin: 0px 3px 0px 3px; padding: 0px; border: 1px solid #ffffff; cursor: pointer; outline: none; background: none; box-shadow: 1px 1px 1px 0px #1a1a1a; border-radius: 50%; width: 15px; height: 15px;"
+                  type="button"
+                />
+                <button
+                  class="image-slider-bullets"
+                  style="display: inline-block; margin: 0px 3px 0px 3px; padding: 0px; border: 1px solid #ffffff; cursor: pointer; outline: none; background: none; box-shadow: 1px 1px 1px 0px #1a1a1a; border-radius: 50%; width: 15px; height: 15px;"
+                  type="button"
+                />
+                <button
+                  class="image-slider-bullets"
+                  style="display: inline-block; margin: 0px 3px 0px 3px; padding: 0px; border: 1px solid #ffffff; cursor: pointer; outline: none; background: none; box-shadow: 1px 1px 1px 0px #1a1a1a; border-radius: 50%; width: 15px; height: 15px;"
+                  type="button"
+                />
+                <button
+                  class="image-slider-bullets"
+                  style="display: inline-block; margin: 0px 3px 0px 3px; padding: 0px; border: 1px solid #ffffff; cursor: pointer; outline: none; background: none; box-shadow: 1px 1px 1px 0px #1a1a1a; border-radius: 50%; width: 15px; height: 15px;"
+                  type="button"
+                />
+              </div>
+            </div>
+          </div>
           <div
             class="css-184szyn"
           >
@@ -133,9 +239,7 @@ exports[`renders app properly 1`] = `
               </div>
             </div>
             <button
-              class="css-1jo60br"
-              disabled=""
-              title="not implemented"
+              class="css-1qx3wkf"
             >
               To offer
             </button>
