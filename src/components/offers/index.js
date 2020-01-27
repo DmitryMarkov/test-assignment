@@ -1,6 +1,7 @@
 import React, { useCallback, useEffect } from 'react'
 import { createSelector } from '@reduxjs/toolkit'
 import { useDispatch, useSelector } from 'react-redux'
+import SimpleImageSlider from 'react-simple-image-slider'
 import { Box, Button, Card, Flex } from 'rebass'
 import {
   ErrorMessage,
@@ -66,14 +67,12 @@ const Offers = () => {
           }}
         >
           <Flex flexDirection="column" height="100%">
-            <Box
-              sx={{
-                px: 4,
-                py: 6,
-                backgroundImage: `url(${offer.photos?.[0]?.t})`,
-                backgroundSize: 'cover',
-                backgroundColor: '#dedede',
-              }}
+            <SimpleImageSlider
+              width={342}
+              height={240}
+              images={offer.photos
+                ?.slice(0, 5)
+                .map((_, index) => ({ url: offer.photos?.[index]?.t }))}
             />
 
             <Flex flexDirection="column" flexGrow={1}>
