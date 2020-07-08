@@ -1,5 +1,5 @@
 import React from 'react'
-import { render, waitForElement } from '@testing-library/react'
+import { render } from '@testing-library/react'
 import { Provider } from 'react-redux'
 import configureStore from 'redux-mock-store'
 import Header, { headerSelector } from './'
@@ -25,8 +25,8 @@ const withRedux = ({ children }) => (
 )
 
 test('Header should render properly', async () => {
-  const { asFragment, getByText } = render(<Header />, { wrapper: withRedux })
-  const headingTitle = await waitForElement(() => getByText(/Test/))
+  const { asFragment, findByText } = render(<Header />, { wrapper: withRedux })
+  const headingTitle = await findByText(/Test/)
 
   expect(headingTitle).toBeInTheDocument()
   expect(asFragment()).toMatchSnapshot()
