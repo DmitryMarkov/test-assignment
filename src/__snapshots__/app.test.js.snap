@@ -31,10 +31,10 @@ exports[`renders app properly 1`] = `
                 style="display: block; margin: 0px; padding: 0px; border: 0px; position: absolute; left: 0px; top: 0px; width: 100%; height: 100%;"
               >
                 <div
-                  style="position: absolute; left: 0px; top: 0px; width: 100%; height: 100%; background-size: cover; overflow: hidden; transition: 0.5s; background-image: url(https://img.holidu.com/images/2691944d-d1ba-4a8a-8b30-4f50d1d75156/t.jpg); transform: translate(0px, 0px);"
+                  style="position: absolute; left: 0px; top: 0px; width: 100%; height: 100%; background-size: cover; overflow: hidden; transition: 0.5s; background-image: url(https://img.holidu.com/images/2691944d-d1ba-4a8a-8b30-4f50d1d75156/t.jpg); transform: translate(0%, 0px);"
                 />
                 <div
-                  style="position: absolute; left: 0px; top: 0px; width: 100%; height: 100%; background-size: cover; overflow: hidden; transition: 0.5s; background-image: url(https://img.holidu.com/images/eb272292-db6b-4d73-a790-ce15ae0f2c50/t.jpg); transform: translate(342px, 0px);"
+                  style="position: absolute; left: 0px; top: 0px; width: 100%; height: 100%; background-size: cover; overflow: hidden; transition: 0.5s; background-image: url(https://img.holidu.com/images/eb272292-db6b-4d73-a790-ce15ae0f2c50/t.jpg); transform: translate(100%, 0px);"
                 />
               </div>
               <button
@@ -149,10 +149,10 @@ exports[`renders app properly 1`] = `
                 style="display: block; margin: 0px; padding: 0px; border: 0px; position: absolute; left: 0px; top: 0px; width: 100%; height: 100%;"
               >
                 <div
-                  style="position: absolute; left: 0px; top: 0px; width: 100%; height: 100%; background-size: cover; overflow: hidden; transition: 0.5s; background-image: url(https://img.holidu.com/images/d04828d4-2c12-41f8-a219-72af8f533d01/t.jpg); transform: translate(0px, 0px);"
+                  style="position: absolute; left: 0px; top: 0px; width: 100%; height: 100%; background-size: cover; overflow: hidden; transition: 0.5s; background-image: url(https://img.holidu.com/images/d04828d4-2c12-41f8-a219-72af8f533d01/t.jpg); transform: translate(0%, 0px);"
                 />
                 <div
-                  style="position: absolute; left: 0px; top: 0px; width: 100%; height: 100%; background-size: cover; overflow: hidden; transition: 0.5s; background-image: url(https://img.holidu.com/images/a1e6e955-471f-44cd-a5e7-444c4531e8fa/t.jpg); transform: translate(342px, 0px);"
+                  style="position: absolute; left: 0px; top: 0px; width: 100%; height: 100%; background-size: cover; overflow: hidden; transition: 0.5s; background-image: url(https://img.holidu.com/images/a1e6e955-471f-44cd-a5e7-444c4531e8fa/t.jpg); transform: translate(100%, 0px);"
                 />
               </div>
               <button

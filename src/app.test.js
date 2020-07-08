@@ -1,5 +1,5 @@
 import React from 'react'
-import { render, waitForElement } from '@testing-library/react'
+import { render, waitFor } from '@testing-library/react'
 import App from './app'
 import mocks from './mocks/offers'
 
@@ -10,17 +10,17 @@ test('renders app properly', async () => {
         resolve({
           ok: true,
           Id: 'test',
-          json: function() {
+          json: function () {
             return mocks
           },
         })
       })
   )
-  const { asFragment, getByTestId, getByText } = render(<App />)
+  const { asFragment, findByTestId, getByText } = render(<App />)
 
   expect(getByText(/Loading/)).toBeInTheDocument()
 
-  const headingTitle = await waitForElement(() => getByTestId('heading-title'))
+  const headingTitle = await findByTestId('heading-title')
 
   expect(headingTitle).toBeInTheDocument()
   expect(asFragment()).toMatchSnapshot()
@@ -34,7 +34,7 @@ xtest('app show error message if server respond with error', async () => {
         reject({
           ok: false,
           Id: 'test',
-          json: function() {
+          json: function () {
             return '<html>404 not found</html>'
           },
         })
@@ -42,7 +42,7 @@ xtest('app show error message if server respond with error', async () => {
   )
 
   const { getByText } = render(<App />)
-  const errorMessage = await waitForElement(() => getByText(/Sorry/))
+  const errorMessage = await waitFor(() => getByText(/Sorry/))
 
   expect(errorMessage).toBeInTheDocument()
 })
