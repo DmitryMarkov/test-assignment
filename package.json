@@ -10,9 +10,12 @@
     "eject": "react-scripts eject"
   },
   "resolutions": {
+    "http-proxy": "^1.18.1",
     "kind-of": "^6.0.3",
+    "lodash": "^4.17.19",
     "minimist": "^1.2.2",
-    "serialize-javascript": ">=2.1.1"
+    "serialize-javascript": ">=2.1.1",
+    "yargs": ">=13.3.2"
   },
   "dependencies": {
     "@rebass/preset": "4.0.5",
